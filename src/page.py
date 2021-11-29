@@ -31,9 +31,11 @@ class Page:
 
         if len(self.mails) == 1:
             return self.mails[0]
-        return self.mails
+        return self.getMailList()
 
     def getMailList(self):
         mail_list = ""
         for mail in self.mails:
-            mail_list = mail_list + "\n" + mail
+            mail_list += "\n" + mail
+
+        return mail_list
