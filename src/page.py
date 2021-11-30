@@ -36,6 +36,6 @@ class Page:
     def getMailList(self):
         mail_list = ""
         for mail in self.mails:
-            mail_list += "\n" + mail
+            mail_list += "\t" + mail
 
         return mail_list
