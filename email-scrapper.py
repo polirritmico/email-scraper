@@ -4,28 +4,16 @@
 import sys
 from src.page import Page
 
-class PagesCollection:
-    def __init__(self, _file):
-        # Read the list file
-        self.list_file = ""
-        with open (_file, "r") as file:
-            self.list_file = file.read()
 
 def main(argv):
     print("Leyendo lista de páginas en archivo: ")
-    print(str(sys.argv[1]))
-    #read the file
-    pages_collection = PagesCollection(sys.argv[1])
-    
-    #make the collection
-    
-    #process each
-
 
 
     print("Lista de páginas leída")
-    print(pages_collection.list_file)
+
+
     print("Procesando las páginas:")
+
 
     return 0
 
