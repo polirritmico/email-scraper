@@ -5,6 +5,7 @@ import unittest
 import os
 # import classes from the script
 from src.page import Page
+from src.pagesCollection import PagesCollection
 
 class TestInputs(unittest.TestCase):
     #def setUp(self):
@@ -33,6 +34,16 @@ class TestInputs(unittest.TestCase):
 
         self.assertEqual(expected, out)
 
+    def test_get_page_url_list(self):
+        file = "lista.txt"
+        expected="""http://derecho.uc.cl/es/profesores/nomina-por-departamento/departamento-de-derecho-publico/2201-vergara-blanco-alejandro
+http://derecho.uc.cl/es/profesores/nomina-por-departamento/departamento-de-derecho-publico/459-fermandois-vohringer-arturo"""
+
+        collection = PagesCollection(file)
+        collection.urlToList()
+        out = "\n".join(collection.url_list)
+
+        self.assertEqual(expected, out)
 
 if __name__ == "__main__":
     unittest.main()
