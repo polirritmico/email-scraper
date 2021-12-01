@@ -25,13 +25,11 @@ class PagesCollection:
             page = Page(url)
             page.readHTML()
             page.processHTML()
-            self.mails.append(page.getMail)
+            self.mails.append(page.getMail())
 
-        return self.mails
-
-    def mailsToString(self):
+    def getMailList(self):
         out_string = ""
         for mail in self.mails:
-            out_string += mail + "\n"
+            out_string += mail.strip() + "\n"
 
-        return out_string
+        return out_string[:-1] # return without last string
