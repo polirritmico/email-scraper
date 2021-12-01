@@ -48,7 +48,7 @@ def main(argv):
             out = scrapHtmlFile(arg)
 
         elif opt in ("-l", "--list"):
-            print("Abriendo archivo de lista: {0}")
+            print("Abriendo archivo de lista: {0}".format(arg))
             out = scrapList(arg)
 
     writeOutFile(out)
