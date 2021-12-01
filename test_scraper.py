@@ -29,17 +29,26 @@ class TestInputs(unittest.TestCase):
 
     def test_get_page_url_list(self):
         file = "testFiles/lista.txt"
-        expected="""http://derecho.uc.cl/es/profesores/nomina-por-departamento/departamento-de-derecho-publico/2201-vergara-blanco-alejandro
-http://derecho.uc.cl/es/profesores/nomina-por-departamento/departamento-de-derecho-publico/459-fermandois-vohringer-arturo"""
+        expected="""http://derecho.uc.cl/es/profesores/nomina-por-departamento/departamento-de-derecho-publico/2201-vergara-blanco-alejandro\nhttp://derecho.uc.cl/es/profesores/nomina-por-departamento/departamento-de-derecho-publico/459-fermandois-vohringer-arturo"""
 
         collection = PagesCollection(file)
         out = "\n".join(collection.url_list)
 
         self.assertEqual(expected, out)
 
-    def test_out_file(self):
-        file_in = "testFiles/lista02.txt"
-        expected = ""
+    def test_simple_web_scrap(self):
+        file = "testFiles/lista.txt"
+        expected = """alejandro.vergara@uc.cl\naferman@uc.cl"""
+
+        collection = PagesCollection(file)
+        collection.scrapUrlList()
+        out = collection.getMailList()
+
+        self.assertEqual(expected, out)
+
+    # def test_out_file(self):
+    #     file_in = "testFiles/lista02.txt"
+    #     expected = ""
 
 if __name__ == "__main__":
     unittest.main()
