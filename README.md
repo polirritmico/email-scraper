@@ -9,10 +9,10 @@ Currently for mails only.
 $ python simple-scraper.py <option> <arg>
 ```
 
-**Avaliable <option>:**
-- `-l`, `--list` for list.txt files. Each line must contain a url.
-- `-f` `--file` for downloaded HTML files.
-- `-u` `--url` for "http://www.page.com" (without quotes).
+**Avaliable options:**
+- `-l <file>`, `--list <file>` for list.txt files. Each line must contain a url.
+- `-f` `--file <file>` for downloaded HTML files.
+- `-u <url>` `--url <url>` for "http://www.page.com" (without quotes).
 
 Then the script will generate an `out.txt` file.
 
