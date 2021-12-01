@@ -30,6 +30,6 @@ class PagesCollection:
     def getMailList(self):
         out_string = ""
         for mail in self.mails:
-            out_string += mail.strip() + "\n"
+            out_string += mail + "\n"
 
         return out_string[:-1] # return without last string

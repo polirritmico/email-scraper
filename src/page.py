@@ -37,8 +37,8 @@ class Page:
     def getMail(self):
         mail_list = ""
         if len(self.mail) == 1:
-            return self.mail[0]
+            return self.mail[0].strip()
         for mail in self.mail:
-            mail_list += mail + "\t"
+            mail_list += mail.strip() + "\t"
 
-        return mail_list
+        return mail_list[:-1]
