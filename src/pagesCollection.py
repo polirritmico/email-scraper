@@ -20,7 +20,7 @@ class PagesCollection:
             print("Error leyendo el archivo")
             return -1
 
-    def scrappUrlList(self):
+    def scrapUrlList(self):
         for url in self.url_list:
             page = Page(url)
             page.readHTML()
