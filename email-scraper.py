@@ -6,20 +6,25 @@ import getopt
 from src.pagesCollection import PagesCollection
 from src.page import Page
 
-def processUrl(arg):
+def scrapUrl(arg):
     page = Page(arg)
-    return page.processUrl()
+    page.readHTML()
+    page.processHTML()
 
-def processFile(arg):
+    return page.getMail()
+
+def scrapHtmlFile(arg):
     page = Page(arg)
     page.readFile()
-    return page.getMails()
+    page.processHTML()
 
-def processList(arg):
+    return page.getMail()
+
+def scrapList(arg):
     collection = PagesCollection(arg)
-    collection.processAllUrls()
-    print(collection.mails)
-    return collection.mailsToString()
+    collection.scrapUrlList()
+
+    return collection.getMailList()
 
 def writeOutFile(out):
     with open("out.txt", "w") as file:
@@ -35,13 +40,16 @@ def main(argv):
     out = ""
     for opt, arg in opts:
         if opt in ("-u", "--url"):
-            print("Abriendo url: {0}".format(arg))
-            out = processUrl(arg)
-        elif opt in ("-l", "--list"):
-            print("Abriendo archivo de lista")
-            out = processList(arg)
+            print("Procesando url: {0}".format(arg))
+            out = scrapUrl(arg)
+
         elif opt in ("-f","--file"):
-            out = processFile(arg)
+            print("Procesando archivo html: {0}".format(arg))
+            out = scrapHtmlFile(arg)
+
+        elif opt in ("-l", "--list"):
+            print("Abriendo archivo de lista: {0}")
+            out = scrapList(arg)
 
     writeOutFile(out)
     return 0
