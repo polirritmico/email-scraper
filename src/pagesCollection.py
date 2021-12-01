@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import time
 from src.page import Page
 
 class PagesCollection:
@@ -26,6 +27,8 @@ class PagesCollection:
             page.readHTML()
             page.processHTML()
             self.mails.append(page.getMail())
+            # Add a wait time to avoid bans
+            time.sleep(0.125)
 
     def getMailList(self):
         out_string = ""
