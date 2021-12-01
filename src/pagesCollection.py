@@ -21,14 +21,14 @@ class PagesCollection:
             print("Error leyendo el archivo")
             return -1
 
-    def scrapUrlList(self):
+    def scrapUrlList(self, delay = 0.125):
         for url in self.url_list:
             page = Page(url)
             page.readHTML()
             page.processHTML()
             self.mails.append(page.getMail())
-            # Add a wait time to avoid bans
-            time.sleep(0.125)
+            # Add a delay to avoid bans
+            time.sleep(delay)
 
     def getMailList(self):
         out_string = ""
