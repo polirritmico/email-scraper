@@ -1,2 +1,2 @@
-# email-scrapper
-Simple mail web scrapper
+# email-scraper
+Simple mail web scraper
