@@ -48,10 +48,10 @@ def main(argv):
             out = scrapHtmlFile(arg)
 
         elif opt in ("-l", "--list"):
-            print("Abriendo archivo de lista: {0}".format(arg))
+            print("Procesando archivo de lista: {0}".format(arg))
             out = scrapList(arg)
     print("Procesado OK\nEscribiendo archivo out.txt")
-    
+
     writeOutFile(out)
     return 0
 
