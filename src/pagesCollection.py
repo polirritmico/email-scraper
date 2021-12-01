@@ -13,7 +13,7 @@ class PagesCollection:
         try:
             with open (_file, "r") as file:
                 self.list_raw = file.read()
-            for line in self.list_raw.split("\n"):
+            for line in self.list_raw.splitlines():
                 if line.strip() == "":
                     continue
                 self.url_list.append(line)
