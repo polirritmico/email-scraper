@@ -8,7 +8,7 @@ class PagesCollection:
     def __init__(self, _file):
         self.list_raw = ""
         self.url_list = []
-        self.mails = []
+        self.collected_data = []
 
         try:
             with open (_file, "r") as file:
@@ -26,13 +26,13 @@ class PagesCollection:
             page = Page(url)
             page.readHTML()
             page.processHTML()
-            self.mails.append(page.getMail())
+            self.collected_data.append(page.getMatchData())
             # Add a delay to avoid bans
             time.sleep(delay)
 
-    def getMailList(self):
+    def getDataList(self):
         out_string = ""
-        for mail in self.mails:
+        for mail in self.collected_data:
             out_string += mail + "\n"
 
         return out_string[:-1] # return without last string

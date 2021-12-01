@@ -11,10 +11,12 @@ class Page:
         self.url = _url
         self.raw_page = None
         self.html_text = ""
-        self.mail = []
+        self.page_data = []
 
     def readHTML(self):
+        # Get the web from internet
         self.raw_page = requests.get(self.url)
+        # Get the HTML code
         self.html_text = self.raw_page.text
 
     def readFile(self):
@@ -22,23 +24,24 @@ class Page:
             with open (self.url, "r") as file:
                 self.html_text = file.read()
         except:
-            print("Error leyendo el archivo")
+            print("ERROR: No se ha podido leer el archivo {0}".format(\
+                   self.url))
             return -1
 
     def processHTML(self):
-        mail_temp = []
+        data_buffer = []
         for match in re.finditer(EMAIL_REGEX, self.html_text):
-            mail_temp.append(match.group(0))
+            data_buffer.append(match.group(0))
 
-        # filter the result and remove duplicates
-        self.mail = list(filter(None, mail_temp))
-        self.mail = list(dict.fromkeys(self.mail))
+        # Filter the result and remove duplicates
+        self.page_data = list(filter(None, data_buffer))
+        self.page_data = list(dict.fromkeys(self.page_data))
 
-    def getMail(self):
-        mail_list = ""
-        if len(self.mail) == 1:
-            return self.mail[0].strip()
-        for mail in self.mail:
-            mail_list += mail.strip() + "\t"
-
-        return mail_list[:-1]
+    def getMatchData(self):
+        data_list = ""
+        if len(self.page_data) == 1:
+            return self.page_data[0].strip()
+        for data in self.page_data:
+            data_list += data.strip() + "\t"
+        # Return without the last \t
+        return data_list[:-1]

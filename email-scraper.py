@@ -11,32 +11,34 @@ def scrapUrl(arg):
     page.readHTML()
     page.processHTML()
 
-    return page.getMail()
+    return page.getMatchData()
 
 def scrapHtmlFile(arg):
     page = Page(arg)
     page.readFile()
     page.processHTML()
 
-    return page.getMail()
+    return page.getMatchData()
 
-def scrapList(arg):
+def scrapListUrl(arg):
     collection = PagesCollection(arg)
     collection.scrapUrlList()
 
-    return collection.getMailList()
+    return collection.getDataList()
 
 def writeOutFile(out):
     with open("out.txt", "w") as file:
         file.write(out)
 
 def main(argv):
+    # Check input parameters
     try:
         opts, args = getopt.getopt(argv,"u:l:f:",["url=","list=","file="])
     except getopt.GetoptError:
         print("Utilice -l <file.txt> para procesar un archivo de lista\nUtilice -u <url> para procesar una lista.")
         return 2
 
+    # Parameters behaviour
     out = ""
     for opt, arg in opts:
         if opt in ("-u", "--url"):
@@ -49,10 +51,19 @@ def main(argv):
 
         elif opt in ("-l", "--list"):
             print("Procesando archivo de lista: {0}".format(arg))
-            out = scrapList(arg)
-    print("Procesado OK\nEscribiendo archivo out.txt")
+            out = scrapListUrl(arg)
 
-    writeOutFile(out)
+    if out == "":
+        print("ERROR: No se procesaron datos.")
+        return -1
+    
+    print("Procesado OK\nEscribiendo archivo out.txt")
+    try:
+        writeOutFile(out)
+    except:
+        print("ERROR: No se pudo escribir el archivo out.txt")
+        return -1
+    
     return 0
 
 
