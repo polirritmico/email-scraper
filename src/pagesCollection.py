@@ -1,22 +1,37 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from src.page import Page
+
 class PagesCollection:
     def __init__(self, _file):
-        self.url_raw = ""
+        self.list_raw = ""
         self.url_list = []
+        self.mails = []
 
-        # Read the list file
         try:
             with open (_file, "r") as file:
-                self.url_raw = file.read()
+                self.list_raw = file.read()
+            for line in self.list_raw.split("\n"):
+                if line.strip() == "":
+                    continue
+                self.url_list.append(line)
         except:
             print("Error leyendo el archivo")
             return -1
 
-    def urlToList(self):
-        for line in self.url_raw.split("\n"):
-            stripped = line.strip()
-            if stripped == "":
-                continue
-            self.url_list.append(line)
+    def scrappUrlList(self):
+        for url in self.url_list:
+            page = Page(url)
+            page.readHTML()
+            page.processHTML()
+            self.mails.append(page.getMail)
+
+        return self.mails
+
+    def mailsToString(self):
+        out_string = ""
+        for mail in self.mails:
+            out_string += mail + "\n"
+
+        return out_string

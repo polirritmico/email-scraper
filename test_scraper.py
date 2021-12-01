@@ -8,19 +8,11 @@ from src.page import Page
 from src.pagesCollection import PagesCollection
 
 class TestInputs(unittest.TestCase):
-    #def setUp(self):
-    #    self.html_collection = []
-    #    for filename in sorted(os.listdir("testFiles/")):
-    #        file = open(("testFiles/" + filename), "r")
-    #        html = file.read()
-    #        file.close()
-    #        page = Page("testFiles/" + filename)
-    #        self.html_collection.append(page)
-
     def test_get_file(self):
         url = "http://derecho.uc.cl/es/profesores/nomina-por-departamento/departamento-de-derecho-privado/581-lyon-puelma-alberto"
         page = Page(url)
-        out = page.readHTML()
+        page.readHTML()
+        out = page.html_text
 
         self.assertIsNotNone(out)
 
@@ -30,20 +22,24 @@ class TestInputs(unittest.TestCase):
 
         page = Page(url)
         page.readHTML()
-        out = page.getMails()
+        page.processHTML()
+        out = page.getMail()
 
         self.assertEqual(expected, out)
 
     def test_get_page_url_list(self):
-        file = "lista.txt"
+        file = "testFiles/lista.txt"
         expected="""http://derecho.uc.cl/es/profesores/nomina-por-departamento/departamento-de-derecho-publico/2201-vergara-blanco-alejandro
 http://derecho.uc.cl/es/profesores/nomina-por-departamento/departamento-de-derecho-publico/459-fermandois-vohringer-arturo"""
 
         collection = PagesCollection(file)
-        collection.urlToList()
         out = "\n".join(collection.url_list)
 
         self.assertEqual(expected, out)
+
+    def test_out_file(self):
+        file_in = "testFiles/lista02.txt"
+        expected = ""
 
 if __name__ == "__main__":
     unittest.main()

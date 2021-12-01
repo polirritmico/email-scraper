@@ -9,33 +9,36 @@ EMAIL_REGEX = r"""(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-
 class Page:
     def __init__(self, _url):
         self.url = _url
-        self.html = ""
-        self.mails = []
-        self.raw_page = [] # type?
+        self.raw_page = None
+        self.html_text = ""
+        self.mail = []
 
     def readHTML(self):
-        raw_page = requests.get(self.url)
-        self.html = raw_page.text
+        self.raw_page = requests.get(self.url)
+        self.html_text = self.raw_page.text
 
-        return self.html
+    def readFile(self):
+        try:
+            with open (self.url, "r") as file:
+                self.html_text = file.read()
+        except:
+            print("Error leyendo el archivo")
+            return -1
 
-    def getMails(self):
-        mails_raw = []
-        for match in re.finditer(EMAIL_REGEX, self.html):
-            mails_raw.append(match.group(0))
+    def processHTML(self):
+        mail_temp = []
+        for match in re.finditer(EMAIL_REGEX, self.html_text):
+            mail_temp.append(match.group(0))
 
-        # filter the result
-        self.mails = list(filter(None, mails_raw))
-        # remove duplicates
-        self.mails = list(dict.fromkeys(self.mails))
+        # filter the result and remove duplicates
+        self.mail = list(filter(None, mail_temp))
+        self.mail = list(dict.fromkeys(self.mail))
 
-        if len(self.mails) == 1:
-            return self.mails[0]
-        return self.getMailList()
-
-    def getMailList(self):
+    def getMail(self):
         mail_list = ""
-        for mail in self.mails:
-            mail_list += "\t" + mail
+        if len(self.mail) == 1:
+            return self.mail[0]
+        for mail in self.mail:
+            mail_list += mail + "\t"
 
         return mail_list
