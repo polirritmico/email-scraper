@@ -8,13 +8,24 @@ from src.page import Page
 from src.pagesCollection import PagesCollection
 
 class TestInputs(unittest.TestCase):
-    def test_get_file(self):
+    def test_get_web_file(self):
         url = "http://derecho.uc.cl/es/profesores/nomina-por-departamento/departamento-de-derecho-privado/581-lyon-puelma-alberto"
         page = Page(url)
         page.readHTML()
         out = page.html_text
 
         self.assertIsNotNone(out)
+
+    def test_get_local_file(self):
+        file = "testFiles/test_uc01.html"
+        expected = "alyonp@uc.cl"
+
+        page = Page(file)
+        page.readFile()
+        page.processHTML()
+        out = page.getMatchData()
+
+        self.assertEqual(expected, out)
 
     def test_get_mail_uc01(self):
         url = "http://derecho.uc.cl/es/profesores/nomina-por-departamento/departamento-de-derecho-privado/581-lyon-puelma-alberto"
@@ -23,7 +34,7 @@ class TestInputs(unittest.TestCase):
         page = Page(url)
         page.readHTML()
         page.processHTML()
-        out = page.getMail()
+        out = page.getMatchData()
 
         self.assertEqual(expected, out)
 
@@ -42,7 +53,7 @@ class TestInputs(unittest.TestCase):
 
         collection = PagesCollection(file)
         collection.scrapUrlList()
-        out = collection.getMailList()
+        out = collection.getDataList()
 
         self.assertEqual(expected, out)
 
