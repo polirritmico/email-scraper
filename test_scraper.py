@@ -38,6 +38,16 @@ class TestInputs(unittest.TestCase):
 
         self.assertEqual(expected, out)
 
+    def test_get_mail_uchile(self):
+        url = "https://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=fabbott"
+        expected = "fabbott@derecho.uchile.cl"
+
+        page = Page(url)
+        page.readHTML()
+        out = page.html_text
+
+        self.assertIsNotNone(out)
+
     def test_get_page_url_list(self):
         file = "testFiles/simple_list.txt"
         expected="""http://derecho.uc.cl/es/profesores/nomina-por-departamento/departamento-de-derecho-publico/2201-vergara-blanco-alejandro\nhttp://derecho.uc.cl/es/profesores/nomina-por-departamento/departamento-de-derecho-publico/459-fermandois-vohringer-arturo"""
