@@ -40,13 +40,14 @@ class TestInputs(unittest.TestCase):
 
     def test_get_mail_uchile(self):
         url = "https://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=fabbott"
-        expected = "fabbott@derecho.uchile.cl"
+        expected = "fabbott@derecho.uchile.cl\tmesadeayuda@uchile.cl"
 
         page = Page(url)
         page.readHTML()
-        out = page.html_text
+        page.processHTML()
+        out = page.getMatchData()
 
-        self.assertIsNotNone(out)
+        self.assertEqual(expected, out)
 
     def test_get_page_url_list(self):
         file = "testFiles/simple_list.txt"
@@ -67,9 +68,19 @@ class TestInputs(unittest.TestCase):
 
         self.assertEqual(expected, out)
 
-    def test_skip_list_element(self):
-        file = "testFiles/skip_list_element.txt"
-        expected = """"""
+    def test_skip_list_element_01(self):
+        file = "testFiles/skip_list_element-01.txt"
+        expected = """alyonp@uc.cl\n\nalejandro.vergara@uc.cl\naferman@uc.cl"""
+
+        collection = PagesCollection(file)
+        collection.scrapUrlList()
+        out = collection.getDataList()
+
+        self.assertEqual(expected, out)
+
+    def test_skip_list_element_02(self):
+        file = "testFiles/skip_list_element-02.txt"
+        expected = """fabbott@derecho.uchile.cl\tmesadeayuda@uchile.cl\nsaccorsi@derecho.uchile.cl\tmesadeayuda@uchile.cl\n\npaguayo@derecho.uchile.cl\tmesadeayuda@uchile.cl\nfaguero@derecho.uchile.cl\tmesadeayuda@uchile.cl\n\n\nlaguirre@derecho.uchile.cl\tmesadeayuda@uchile.cl"""
 
         collection = PagesCollection(file)
         collection.scrapUrlList()
