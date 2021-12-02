@@ -133,3 +133,6 @@ dmypy.json
 
 # Kate files
 .kate-swp
+
+# output file
+out.txt
