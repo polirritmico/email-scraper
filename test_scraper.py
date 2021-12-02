@@ -39,7 +39,7 @@ class TestInputs(unittest.TestCase):
         self.assertEqual(expected, out)
 
     def test_get_page_url_list(self):
-        file = "testFiles/lista.txt"
+        file = "testFiles/simple_list.txt"
         expected="""http://derecho.uc.cl/es/profesores/nomina-por-departamento/departamento-de-derecho-publico/2201-vergara-blanco-alejandro\nhttp://derecho.uc.cl/es/profesores/nomina-por-departamento/departamento-de-derecho-publico/459-fermandois-vohringer-arturo"""
 
         collection = PagesCollection(file)
@@ -48,8 +48,18 @@ class TestInputs(unittest.TestCase):
         self.assertEqual(expected, out)
 
     def test_simple_web_scrap(self):
-        file = "testFiles/lista.txt"
+        file = "testFiles/simple_list.txt"
         expected = """alejandro.vergara@uc.cl\naferman@uc.cl"""
+
+        collection = PagesCollection(file)
+        collection.scrapUrlList()
+        out = collection.getDataList()
+
+        self.assertEqual(expected, out)
+
+    def test_skip_list_element(self):
+        file = "testFiles/skip_list_element.txt"
+        expected = """"""
 
         collection = PagesCollection(file)
         collection.scrapUrlList()
