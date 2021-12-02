@@ -132,7 +132,7 @@ dmypy.json
 .pyre/
 
 # Kate files
-.kate-swp
+*.kate-swp
 
 # output file
 out.txt
