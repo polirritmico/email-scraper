@@ -1,0 +1,8 @@
+http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=fabbott
+http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=saccorsi
+
+http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=pablo.aguayo
+http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=fiaguero
+
+
+http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=luppy.aguirre
