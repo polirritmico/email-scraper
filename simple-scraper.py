@@ -33,7 +33,7 @@ def writeOutFile(out):
 def main(argv):
     # Check input parameters
     try:
-        opts, args = getopt.getopt(argv,"u:l:f:lv",["url=","list=","file="])
+        opts, args = getopt.getopt(argv,"u:l:f",["url=","list=","file="])
     except getopt.GetoptError:
         print("Utilice -l <file.txt> para procesar un archivo de lista\nUtilice -u <url> para procesar una lista.")
         return 2
