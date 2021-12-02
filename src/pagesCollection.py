@@ -25,7 +25,7 @@ class PagesCollection:
             return -1
 
     def scrapUrlList(self, delay = 0.125):
-        if self.verbose: print(SEP + "RegEx matches:")
+        if self.verbose: print(SEP + "RegEx matches:\n" + SEP)
         for url in self.url_list:
             if url == "":
                 self.collected_data.append("")

@@ -20,8 +20,8 @@ def scrapHtmlFile(arg):
 
     return page.getMatchData()
 
-def scrapListUrl(arg):
-    collection = PagesCollection(arg)
+def scrapListUrl(arg, verbose = True):
+    collection = PagesCollection(arg, verbose)
     collection.scrapUrlList()
 
     return collection.getDataList()
@@ -33,7 +33,7 @@ def writeOutFile(out):
 def main(argv):
     # Check input parameters
     try:
-        opts, args = getopt.getopt(argv,"u:l:f:",["url=","list=","file="])
+        opts, args = getopt.getopt(argv,"u:l:f:lv",["url=","list=","file="])
     except getopt.GetoptError:
         print("Utilice -l <file.txt> para procesar un archivo de lista\nUtilice -u <url> para procesar una lista.")
         return 2
@@ -53,6 +53,7 @@ def main(argv):
             print("Procesando archivo de lista: {0}".format(arg))
             out = scrapListUrl(arg)
 
+
     if out == "":
         print("ERROR: No se procesaron datos.")
         return -1
@@ -64,6 +65,7 @@ def main(argv):
         print("ERROR: No se pudo escribir el archivo out.txt")
         return -1
     
+    print("OK")
     return 0
 
 
