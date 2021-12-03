@@ -9,7 +9,7 @@ from src.page import Page
 from src.pagesCollection import PagesCollection
 from src.browser import Browser
 
-#@unittest.skip
+@unittest.skip
 class TestInputs(unittest.TestCase):
     def test_get_web_file(self):
         url = "http://derecho.uc.cl/es/profesores/nomina-por-departamento/departamento-de-derecho-privado/581-lyon-puelma-alberto"
@@ -30,6 +30,7 @@ class TestInputs(unittest.TestCase):
 
         self.assertEqual(expected, out)
 
+@unittest.skip
 class TestMails(unittest.TestCase):
     def test_get_mail_uc01(self):
         url = "http://derecho.uc.cl/es/profesores/nomina-por-departamento/departamento-de-derecho-privado/581-lyon-puelma-alberto"
@@ -76,6 +77,7 @@ class TestMails(unittest.TestCase):
 
         self.assertEqual(expected, out)
 
+@unittest.skip
 class TestList(unittest.TestCase):
     def test_get_page_url_list(self):
         file = "testFiles/simple_list.txt"
@@ -103,6 +105,19 @@ class TestList(unittest.TestCase):
         collection = PagesCollection(file)
         collection.scrapUrlList()
         out = collection.getDataList()
+
+        self.assertEqual(expected, out)
+
+#@unittest.skip
+class TestSearches(unittest.TestCase):
+    def test_get_magister_uai(self):
+        url = "https://www.uandes.cl/personas/manuel-bernet-paez/"
+        expected = ">Máster en Derecho Privado, Ilustre Colegio de Abogados de Madrid, España.<"
+
+        page = Page(url)
+        page.readHTML()
+        page.processHTML()
+        out = page.getMatchData()
 
         self.assertEqual(expected, out)
 
