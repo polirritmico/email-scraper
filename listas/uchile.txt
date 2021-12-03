@@ -4,10 +4,10 @@ http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=saccorsi
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=pablo.aguayo
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=fiaguero
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=luppy.aguirre
-http://derecho.uchile.cl/facultad/cuerpo-academico/lista-de-academicos
+
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=lalbornoz
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=aaliaga
-http://derecho.uchile.cl/facultad/cuerpo-academico/lista-de-academicos
+https://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=fcoalvarado
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=smalvare
 
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=aanriquez
@@ -45,10 +45,10 @@ http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=rcamargo
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=francesco.campora
 
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=ccanelo
-http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=flavia.carbonell@gmail.com
+https://www.uchile.cl/portafolio-academico/impresion.jsf?username=fcarbonell
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=cardenascl
-http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=hacarden@gmail.com
-http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=ankarrev
+https://www.uchile.cl/portafolio-academico/impresion.jsf?username=hugo.cardenas
+https://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=nicarrasco
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=hcarreno
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=milkalucic
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=alvaro.castro
@@ -123,7 +123,7 @@ http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=jmhuerta
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=rhuidobro
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=hhumeres
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=chuneeus
-http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=churtado@globalsym.com
+https://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=cristian.hurtado.c
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=dibaceta
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=cihnen
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=hinfante
@@ -164,7 +164,7 @@ http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=gladys.ma
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=manriquezabogados
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=jpmanalic@yahoo.com
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=fjmariani
-http://derecho.uchile.cl/facultad/cuerpo-academico/lista-de-academicos
+https://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=pamemartinez
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=chopin
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=jmaturanab
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=cmaturana
@@ -190,7 +190,7 @@ http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=amoure
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=rmoyag
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=fmujica
 
-http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=nataliamc
+https://www.uchile.cl/portafolio-academico/impresion.jsf?username=natalia.munoz.c
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=rnahum
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=cnash
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=enavarro
@@ -212,7 +212,7 @@ http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=jpallavic
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?id=MjA5ODZiYjdhMWUwMzNlZWUwYjU0YmZlMzdkMTBjNjg=
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=eepalma
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=juaneduardopalma
-http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=dpardow@gmail.com
+https://www.uchile.cl/portafolio-academico/impresion.jsf?username=diego.pardow
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=aiparra
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=gonzalezpena
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=ceperezd
@@ -241,7 +241,7 @@ http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=aquintana
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=fquintan
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=cquinzio
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=tramirez
-http://derecho.uchile.cl/facultad/cuerpo-academico/lista-de-academicos
+https://www.uchile.cl/portafolio-academico/impresion.jsf?username=frayo
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=jrecart
 
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=revecourzua
@@ -270,7 +270,7 @@ http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=boris.san
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=msasso
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=adrian.schopf
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?id=OGU3MzhlYTVkM2I0NjUzMDk0MTNiNTVjNGM5Y2YwYjA=
-http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=maschurmann@yahoo.es
+https://www.uchile.cl/portafolio-academico/impresion.jsf?username=miguel.schurmann
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=sschuster
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=fselame
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=enicolassepulveda
@@ -307,7 +307,7 @@ http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=joseignac
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=lajavierita
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=javvergara
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=rvergara
-http://derecho.uchile.cl/facultad/cuerpo-academico/lista-de-academicos
+https://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=camilovergarasanteli
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=yvillablanca
 
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=mvillega
@@ -319,4 +319,4 @@ http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=ayuseffr
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=gzaliasnik
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=rzegers
 http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=pzelaya
-http://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=fmoraga@derecho.uchile.cl"
+https://www.uchile.cl/portafolio-academico/perfilAcademico.jsf?username=franzuniga
