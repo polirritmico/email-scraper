@@ -20,7 +20,7 @@ class Browser:
 		# Get the web from the internet
 		self.driver.get(url)
 		html = self.driver.page_source
-		self.driver.close()
+		#self.driver.close()
 		# Return the HTML code
 		return html
 
