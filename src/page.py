@@ -3,7 +3,7 @@
 
 import re
 import requests
-from regex_search import SEARCH
+from config import SEARCH
 
 class Page:
     def __init__(self, _url):

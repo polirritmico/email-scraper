@@ -3,10 +3,7 @@
 
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
-
-GECKO_PATH     = r"/home/eduardo/Compilaciones/Programación/Python/simple-scraper/WebDriver/geckodriver"
-FIREFOX_PATH   = r"/usr/bin/firefox-bin"
-GECKO_LOG_PATH = r"WebDriver/geckodriver.log"
+from config import GECKO_PATH, FIREFOX_PATH, GECKO_LOG_PATH
 
 class Browser:
 	def __init__(self):
