@@ -47,13 +47,14 @@ GECKO_LOG_PATH = r"WebDriver/geckodriver.log"
 # Master
 #SEARCH = r""">(.*)(M[aá](g[ií])?ster)(.*)<"""
 
-# Doctorado
+# Doctorado UCHILE
 #SEARCH = r"""li>(.*?)((Doctora?)|([Ph]\.?[Hh]\.?[Dd]\.?)) (.*?)</li"""
+SEARCH = r""">(.*?)((Doctora?)|([Ph]\.?[Hh]\.?[Dd]\.?)) (.*?)</"""
 
 # Licenciatura UC
 #SEARCH = r""">(.*?)Licenciad[oa] (.+?)<"""
 # Licenciatura UCHILE
-#SEARCH = r"""<tr class=\"even\"><td class=\"\">ABOGAD[OA]<\/td><td class=\"\">(.*?)<\/td><td class=\"\">(.*?)<\/td><\/tr>
-SEARCH = r"""<tr class=\"(.+?)\"><td class=\"\">((ABOGAD[OA])|(LICEN))(.*?)</td><td class=\"\">(.*?)</td><td class=\"\">(.*?)</td></tr>"""
+#SEARCH = r""">((ABOGAD[OA])|(CON TITULO)|(LICENCIAD[OA]))[a-zA-ZáéíóúÁÉÍÓÚñÑ ,\.;\-']*</td><td class=\"\">(.*?)</td><td class=\"\">(.*?)/td></tr>"""
 
-
+# Todos los datos académicos de la UCHILE. DIFICIL DE SEPARAR
+#SEARCH = r"""<h2 id=\"h2Titulos\">(.*)[\s\S]*?(?=\n.*?(<script>))"""
