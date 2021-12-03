@@ -6,6 +6,7 @@ import getopt
 from src.pagesCollection import PagesCollection, SEP
 from src.page import Page
 from src.browser import Browser
+from src.usage import *
 
 def launchBrowser(page):
     browser = Browser()
@@ -48,34 +49,6 @@ def writeOutFile(out_data, outfile):
     with open(outfile, "w") as file:
         file.write(out_data)
 
-def usage():
-    print("""
-Modo de empleo: simple-scraper.py [OPCIÓN] [MODO] [ARCHIVO/URL] [SALIDA]
-Busca y descarga las páginas especificadas en el ARCHIVO/URL y devuelve
-los resultados dentro del archivo de texto SALIDA.
-
-Opciones:
-  -h, --help        Muestra este texto y cierra el programa.
-  -v, --verbose     Para activar la salida en consola.
-  -d, --delay[=SEG] Para añadir un tiempo en segundos de espera entre
-                    cada url. No funciona en el modo JavaScript.
-  -j, --javascript  Obtiene el HTML a través de un "navegador virtual".
-
-Modo:
-  -l, --list        Para procesar un archivo de lista.
-  -u, --url         Para procesar una lista.
-  -f, --file        Para procesar un HTML descargado.
-
-Archivo de entrada:
-Un archivo txt con una url por línea. El programa respeta las líneas 
-vacías para que se alinee la salida con bases de datos o tablas.
-
-Ejemplo de uso:
-./simple-scraper.py -vj -d 2 --url http://www.pagina.com salida.txt
-
-Más información en https://github.com/polirritmico/simple-scraper
-""")
-
 
 def main(argv):
     # Check input parameters
@@ -83,9 +56,15 @@ def main(argv):
         opts, args = getopt.getopt( sys.argv[1:] , "hvjd:luf", ["help", "verbose", "javascript", "delay=" , "list" , "url", "file"])
     except getopt.GetoptError:
         print("Simple-scraper: Opción inválida.")
-        usage()
+        short_usage()
         return 2
 
+    # Help
+    for opt, arg in opts:
+        if opt in ("-h", "--help"):
+            usage()
+            return 0
+ 
     verbose     = False
     delay       = 0.125
     javascript  = False
@@ -94,11 +73,23 @@ def main(argv):
     out_data    = ""
 
 
+    # Setting input/output
+    try:
+        in_file = args[0]
+    except:
+        print("Simple-scraper: Falta archivo o url objetivo.")
+        short_usage()
+        return 2
+    if len(args) == 2:
+        out_file = args[1]
+    elif len(args) > 2:
+        print("Simple-scraper: Demasiados argumentos.")
+        short_usage()
+        return 2
+
     for opt, arg in opts:
         # Setting up the options
-        if opt in ("-h", "--help"):
-            usage()
-        elif opt in ("-v", "--verbose"):
+        if opt in ("-v", "--verbose"):
             verbose = True
         elif opt in ("-j", "--javascript"):
             javascript = True
@@ -118,24 +109,11 @@ def main(argv):
 
         else:
             print("Simple-scraper: Opción inválida.")
-            usage()
+            short_usage()
             return 2
 
-    # Setting input/output
-    try:
-        in_file = args[0]
-    except:
-        print("Simple-scraper: Falta archivo o url objetivo.")
-        return 2
-    if len(args) == 2:
-        out_file = args[1]
-    elif len(args) > 2:
-        print("Simple-scraper: Demasiados argumentos.")
-        usage()
-        return 2
-
     if out_data == "":
-        print("ERROR: No se procesaron datos.")
+        print("No se procesaron datos.")
         return -1
     
     print("Procesado OK\nEscribiendo archivo {0}...".format(out_file))
