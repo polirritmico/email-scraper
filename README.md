@@ -11,16 +11,16 @@ simple-scraper.py [OPCIÓN] [MODO] [ARCHIVO/URL] [SALIDA]
 Busca y descarga las páginas especificadas en el ARCHIVO/URL y devuelve los resultados dentro del archivo de texto SALIDA.
 
 ## Opciones:
-- -h, --help        Muestra este texto y cierra el programa.
-- -v, --verbose     Para activar la salida en consola.
-- -d, --delay[=SEG] Para añadir un tiempo en segundos de espera entre cada url. No funciona en el modo JavaScript.
-- -j, --javascript  Obtiene el HTML a través de un "navegador virtual".
+- **-h**, *--help*        Muestra este texto y cierra el programa.
+- **-v**, *--verbose*     Para activar la salida en consola.
+- **-d**, *--delay[=SEG]* Para añadir un tiempo en segundos de espera entre cada url. No funciona en el modo JavaScript.
+- **-j**, *--javascript*  Obtiene el HTML a través de un "navegador virtual".
                     Se debe configurar en **config.py**.
 
 ## Modo:
-- -l, --list        Para procesar un archivo de lista.
-- -u, --url         Para procesar una lista.
-- -f, --file        Para procesar un HTML descargado.
+- **-l**, *--list*        Para procesar un archivo de lista.
+- **-u**, *--url*         Para procesar una lista.
+- **-f**, *--file*        Para procesar un HTML descargado.
 
 ## Ejemplo de uso:
 ```
