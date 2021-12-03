@@ -1,0 +1,321 @@
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">28/11/2000</td></tr>
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Universidad De Chile</td><td class="">01/01/1981</td></tr>
+
+
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">30/10/2014</td></tr>
+
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">27/06/1994</td></tr>
+<tr class="even"><td class="">ABOGADO</td><td class="">Universidad De Chile</td><td class="">26/01/1998</td></tr>
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">11/03/2010</td></tr>
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">28/08/1995</td></tr>
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">08/06/2004</td></tr>
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">01/01/1900</td></tr>
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">01/01/1986</td></tr>
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">09/07/2007</td></tr>
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">15/05/2000</td></tr>
+<tr class="even"><td class="">ABOGADO</td><td class="">Universidad de Los Ande</td><td class="">01/12/1988</td></tr>
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Pontificia Universidad Catolica De Chile</td><td class="">10/01/1966</td></tr>
+
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">25/08/1997</td></tr>
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">01/01/1998</td></tr>
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">15/06/2012</td><td class="">Corte Suprema De Justicia</td></tr>
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">26/04/1999</td></tr>
+
+
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">11/11/1111</td></tr>
+
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">06/12/1999</td></tr>
+
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">24/01/2005</td></tr>
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">28/03/2014</td></tr>
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">01/01/1998</td></tr>
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">11/04/2012</td></tr>
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">24/01/1994</td></tr>
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">01/05/1972</td></tr>
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">10/09/2010</td></tr>
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">29/05/1989</td></tr>
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">08/07/2011</td></tr>
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">26/01/1998</td></tr>
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">13/05/2009</td></tr>
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Universidad De Chile</td><td class="">01/06/1999</td></tr>
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Universidad De Chile</td><td class="">02/05/1994</td></tr>
+<tr class="even"><td class="">ABOGADO</td><td class="">Universidad De Chile</td><td class="">09/01/2009</td></tr>
+
+
+
+
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Universidad De Chile</td><td class="">14/08/1995</td></tr>
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">28/04/1986</td></tr>
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">08/06/2004</td></tr>
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">28/05/1990</td></tr>
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">14/05/1971</td></tr>
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">15/08/1985</td></tr>
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">22/04/1974</td></tr>
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">06/12/2004</td></tr>
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">24/07/2001</td></tr>
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">05/06/1960</td></tr>
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">08/04/1991</td></tr>
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Universidad De Chile</td><td class="">06/06/1994</td></tr>
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">13/06/1996</td></tr>
+
+
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">27/01/2003</td></tr>
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">20/12/2004</td></tr>
+
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">09/07/1990</td></tr>
+
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">01/01/1975</td></tr>
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">23/08/2004</td></tr>
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">23/05/2012</td></tr>
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Universidad Catolica</td><td class="">29/01/1996</td></tr>
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">27/09/1999</td></tr>
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Universidad De Chile</td><td class="">01/07/1972</td></tr>
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">04/09/1967</td></tr>
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Universidad De Chile</td><td class="">06/11/1967</td></tr>
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">15/10/1979</td></tr>
+
+
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">24/10/2001</td></tr>
+
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">01/03/1987</td></tr>
+
+
+
+
+
+
+
+
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">24/11/1997</td></tr>
+
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">11/11/2007</td><td class="">Corte Suprema De Justicia</td></tr>
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">20/08/1990</td></tr>
+
+
+
+
+
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">23/12/1996</td></tr>
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">25/07/1994</td></tr>
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Universidad De Chile</td><td class="">11/11/1960</td></tr>
+<tr class="even"><td class="">ABOGADO</td><td class="">Universidad De Chile</td><td class="">01/01/1986</td></tr>
+
+
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">07/10/2011</td></tr>
+<tr class="even"><td class="">ABOGADO</td><td class="">Universidad De Chile</td><td class="">01/01/1992</td></tr>
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">21/07/1975</td></tr>
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">25/07/2008</td></tr>
+
+
+
+
+
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">26/10/1960</td></tr>
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">11/11/2002</td></tr>
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">27/09/2004</td></tr>
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">25/07/1983</td></tr>
+
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">06/07/1998</td></tr>
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">03/08/1992</td></tr>
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">12/03/2007</td></tr>
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">12/06/1979</td></tr>
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">11/12/1989</td></tr>
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">01/06/1985</td></tr>
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Universidad De Chile</td><td class="">26/04/1999</td></tr>
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">12/05/2003</td></tr>
+
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">29/04/2011</td></tr>
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">12/11/1984</td></tr>
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">25/11/1991</td></tr>
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">12/06/1978</td></tr>
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">17/10/2005</td></tr>
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">07/08/1961</td></tr>
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">06/04/2009</td></tr>
+
+
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Universidad De Chile</td><td class="">01/06/1987</td></tr>
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">28/08/1995</td></tr>
+
+
+
+
+
+
+<tr class="even"><td class="">ABOGADO</td><td class="">Corte Suprema De Justicia</td><td class="">17/05/1982</td></tr>
+
