@@ -38,8 +38,10 @@ class PagesCollection:
                 continue
             page = Page(url)
 
-            if self.javascript: page.readHTML_JS(self.browser)
-            else: page.readHTML()
+            if self.javascript:
+                page.readHTML_JS(self.browser)
+            else:
+                page.readHTML()
             page.processHTML()
             self.collected_data.append(page.getMatchData())
 
@@ -49,7 +51,7 @@ class PagesCollection:
 
         if self.verbose: print(SEP)
         # Browser must be closed or will remain running on background
-        if self.javascript: browser.quit()
+        if self.javascript: self.browser.quit()
 
     def getDataList(self):
         out_string = ""
