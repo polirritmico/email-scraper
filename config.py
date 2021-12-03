@@ -45,5 +45,7 @@ GECKO_LOG_PATH = r"WebDriver/geckodriver.log"
 #SEARCH = r""">(.*)(M[aá](g[ií])?ster)(.*)<"""
 
 # Doctorado
-SEARCH = r"""li>(.*?)((Doctora?)|([Ph]\.?[Hh]\.?[Dd]\.?)) (.*?)</li"""
+#SEARCH = r"""li>(.*?)((Doctora?)|([Ph]\.?[Hh]\.?[Dd]\.?)) (.*?)</li"""
 
+# Licenciatura
+SEARCH = r""">(.*?)Licenciad[oa] (.+?)<"""
