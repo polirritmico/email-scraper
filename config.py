@@ -54,6 +54,6 @@ GECKO_LOG_PATH = r"WebDriver/geckodriver.log"
 #SEARCH = r""">(.*?)Licenciad[oa] (.+?)<"""
 # Licenciatura UCHILE
 #SEARCH = r"""<tr class=\"even\"><td class=\"\">ABOGAD[OA]<\/td><td class=\"\">(.*?)<\/td><td class=\"\">(.*?)<\/td><\/tr>
-SEARCH = r"""<tr class=\"even\"><td class=\"\">ABOGAD[OA]</td><td class=\"\">(.*?)</td><td class=\"\">(.*?)</td></tr>"""
+SEARCH = r"""<tr class=\"(.+?)\"><td class=\"\">((ABOGAD[OA])|(LICEN))(.*?)</td><td class=\"\">(.*?)</td><td class=\"\">(.*?)</td></tr>"""
 
 
