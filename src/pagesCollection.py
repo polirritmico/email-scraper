@@ -8,7 +8,7 @@ from src.browser import Browser
 SEP = "----------------------------------\n"
 
 class PagesCollection:
-    def __init__(self, _file, _verb = False, delay = 0.125, js = False):
+    def __init__(self, _file, _verb = False, js = False, delay = 0.125):
         self.verbose        = _verb
         self.delay          = delay
         self.javascript     = js
