@@ -60,6 +60,7 @@ class TestInputs(unittest.TestCase):
         page.readHTML_JS(browser)
         page.processHTML()
         out = page.getMatchData()
+        browser.quit()
 
         self.assertEqual(expected, out)
 
