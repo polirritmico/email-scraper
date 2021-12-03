@@ -34,6 +34,7 @@ class PagesCollection:
         if self.verbose: print(SEP + "RegEx matches:\n" + SEP)
 
         for url in self.url_list:
+            #data_buffer.append("===========") # When a sep is needed
             if url == "":
                 self.collected_data.append("")
                 if self.verbose: print("")
