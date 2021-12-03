@@ -3,9 +3,11 @@
 
 import unittest
 import os
+
 # import classes from the script
 from src.page import Page
 from src.pagesCollection import PagesCollection
+from src.browser import Browser
 
 class TestInputs(unittest.TestCase):
     def test_get_web_file(self):
@@ -44,6 +46,18 @@ class TestInputs(unittest.TestCase):
 
         page = Page(url)
         page.readHTML()
+        page.processHTML()
+        out = page.getMatchData()
+
+        self.assertEqual(expected, out)
+
+    def test_get_mail_udp(self):
+        url = "https://www.udp.cl/academico/carlos-pizarro-wilson/"
+        expected = "carlos.pizarro@udp.cl\tprensa@mail.udp.cl\tmesa.ayuda@mail.udp.cl"
+
+        browser = Browser()
+        page = Page(url)
+        page.readHTML_JS(browser)
         page.processHTML()
         out = page.getMatchData()
 
@@ -88,9 +102,6 @@ class TestInputs(unittest.TestCase):
 
         self.assertEqual(expected, out)
 
-    # def test_out_file(self):
-    #     file_in = "testFiles/lista02.txt"
-    #     expected = ""
 
 if __name__ == "__main__":
     unittest.main()
