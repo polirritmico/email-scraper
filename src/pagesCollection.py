@@ -25,7 +25,9 @@ class PagesCollection:
             for line in self.list_raw.splitlines():
                 self.url_list.append(line)
         except:
-            print("Error leyendo el archivo")
+            print("Error leyendo el archivo [{0}]\n".format(_file))
+            if self.javascript:
+                self.browser.quit()
             return -1
 
     def scrapUrlList(self):
