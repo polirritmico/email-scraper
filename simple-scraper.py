@@ -50,23 +50,30 @@ def writeOutFile(out_data, outfile):
 
 def usage():
     print("""
-Uso: simple-scraper.py <Opciones> <Modo> <Archivo/URL> <Salida>
-Busca en cada página y devuelve los resultados en un archivo de texto.
+Modo de empleo: simple-scraper.py [OPCIÓN] [MODO] [ARCHIVO/URL] [SALIDA]
+Busca y descarga las páginas especificadas en el ARCHIVO/URL y devuelve
+los resultados dentro del archivo de texto SALIDA.
 
 Opciones:
-   -h, --help        Muestra este texto y cierra el programa.
-   -v, --verbose     Para activar la salida en consola.
-   -d, --delay       Para añadir un tiempo en segundos de espera entre
-                     cada url. No funciona en el modo JavaScript.
-   -j, --javascript  Obtiene el HTML a través de un "navegador virtual".
+  -h, --help        Muestra este texto y cierra el programa.
+  -v, --verbose     Para activar la salida en consola.
+  -d, --delay[=SEG] Para añadir un tiempo en segundos de espera entre
+                    cada url. No funciona en el modo JavaScript.
+  -j, --javascript  Obtiene el HTML a través de un "navegador virtual".
 
 Modo:
-   -l, --list        Para procesar un archivo de lista.
-   -u, --url         Para procesar una lista.
-   -f, --file        Para procesar un HTML descargado.
+  -l, --list        Para procesar un archivo de lista.
+  -u, --url         Para procesar una lista.
+  -f, --file        Para procesar un HTML descargado.
+
+Archivo de entrada:
+Un archivo txt con una url por línea. El programa respeta las líneas 
+vacías para que se alinee la salida con bases de datos o tablas.
 
 Ejemplo de uso:
 ./simple-scraper.py -vj -d 2 --url http://www.pagina.com salida.txt
+
+Más información en https://github.com/polirritmico/simple-scraper
 """)
 
 
@@ -86,18 +93,6 @@ def main(argv):
     in_file     = ""
     out_data    = ""
 
-    # Setting input/output
-    try:
-        in_file = args[0]
-    except:
-        print("Simple-scraper: Falta archivo o url objetivo.")
-        return 2
-    if len(args) == 2:
-        out_file = args[1]
-    elif len(args) > 2:
-        print("Simple-scraper: Demasiados argumentos.")
-        usage()
-        return 2
 
     for opt, arg in opts:
         # Setting up the options
@@ -125,6 +120,19 @@ def main(argv):
             print("Simple-scraper: Opción inválida.")
             usage()
             return 2
+
+    # Setting input/output
+    try:
+        in_file = args[0]
+    except:
+        print("Simple-scraper: Falta archivo o url objetivo.")
+        return 2
+    if len(args) == 2:
+        out_file = args[1]
+    elif len(args) > 2:
+        print("Simple-scraper: Demasiados argumentos.")
+        usage()
+        return 2
 
     if out_data == "":
         print("ERROR: No se procesaron datos.")
