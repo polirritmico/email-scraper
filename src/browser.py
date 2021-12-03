@@ -4,8 +4,9 @@
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 
-GECKO_PATH   = r'/home/eduardo/Compilaciones/Programación/Python/simple-scraper/WebDriver/geckodriver'
-FIREFOX_PATH = r"/usr/bin/firefox-bin"
+GECKO_PATH     = r"/home/eduardo/Compilaciones/Programación/Python/simple-scraper/WebDriver/geckodriver"
+FIREFOX_PATH   = r"/usr/bin/firefox-bin"
+GECKO_LOG_PATH = r"WebDriver/geckodriver.log"
 
 class Browser:
 	def __init__(self):
@@ -13,8 +14,9 @@ class Browser:
 		self.options = Options()
 		self.options.binary_location = FIREFOX_PATH
 		#self.options.headless = True
-		self.driver = webdriver.Firefox( executable_path=GECKO_PATH \
-		                               , options=self.options )
+		self.driver = webdriver.Firefox( executable_path=GECKO_PATH    \
+		                               , options=self.options          \
+		                               , service_log_path=GECKO_LOG_PATH)
 
 	def loadWeb(self, url):
 		# Get the web from the internet
