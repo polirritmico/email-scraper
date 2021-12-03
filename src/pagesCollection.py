@@ -17,7 +17,7 @@ class PagesCollection:
         self.url_list       = []
         self.collected_data = []
 
-        self.browser = None if self.javascript else Browser()
+        self.browser = Browser() if self.javascript else None
 
         try:
             with open (_file, "r") as file:
@@ -37,11 +37,9 @@ class PagesCollection:
                 if self.verbose: print("")
                 continue
             page = Page(url)
-            # page.readHTML_JS(self.browser) if self.javascript else page.readHTML()
-            if self.javascript:
-                page.readHTML_JS(self.browser)
-            else:
-                page.readHTML()
+
+            if self.javascript: page.readHTML_JS(self.browser)
+            else: page.readHTML()
             page.processHTML()
             self.collected_data.append(page.getMatchData())
 
