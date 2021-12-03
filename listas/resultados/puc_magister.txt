@@ -1,322 +1,322 @@
 
 
-<li>Máster en Gobierno y Políticas Públicas, Universidad de Harvard (EE.UU.)</li>
+Máster en Gobierno y Políticas Públicas	Universidad de Harvard (EE.UU.)
 
 
-<li>Candidato a Magister en Derecho (LLM), mención Derecho Público, Pontificia Universidad Católica de Chile</li>	<li>Magister en Filosofía, Universidad de Navarra (España)</li>
-<li>Magíster en Derecho (LL.M.) en New York University</li>
+Candidato a Magister en Derecho Público (LLM)	PUC	Magister en Filosofía, Universidad de Navarra (España)
+Magíster en Derecho (LLM)	New York University
 
-<li>Magíster en Derecho de Minería, Universidad Gabriela Mistral</li>
-<li>Magíster en Ciencia Jurídica, Pontificia Universidad Católica de Chile</li>
+Magíster en Derecho de Minería	Universidad Gabriela Mistral
+Magíster en Ciencia Jurídica	PUC
 
-<li>Magíster en Derecho (Legum Magister, LL.M.), Universidad Albert-Ludwig Friburgo de Brisgovia, Alemania</li>
-<li>Magíster en Derecho (LLM), Universidad de Columbia, Estados Unidos</li>
-<li>Magíster en Derecho Público, Mención Administrativo, Universidad de Chile</li>
-<li>Magíster en Derecho, Pontificia Universidad Católica de Chile</li>
-<li>Master of Laws (LLM), Harvard University (EE.UU.)</li>
-<li>Master of Laws (LLM) University of Leicester</li>
+Magíster en Derecho (LLM)	Universidad Albert-Ludwig Friburgo de Brisgovia, Alemania
+Magíster en Derecho (LLM)	Universidad de Columbia, Estados Unidos
+Magíster en Derecho Público	Mención Administrativo, UCHILE
+Magíster en Derecho	PUC
+Master of Laws (LLM)	Harvard University (EE.UU.)
+Master of Laws (LLM)	University of Leicester
 
 
 
-<li>Máster en Derechos Sociolaborales, Universitat Autònoma de Barcelona</li>
-<li>Master en Finanzas, Shangai University of Finance and Economics, China</li>
+Máster en Derechos Sociolaborales	Universitat Autònoma de Barcelona
+Master en Finanzas	Shangai University of Finance and Economics, China
 
 
-<li>Master of Laws (LLM) en la Universidad de Chicago</li>
+Master of Laws (LLM)	Universidad de Chicago
 
 
-<li>Magíster en Derecho de Minería, Universidad de Atacama</li>	<li>Magíster en Docencia Universitaria, Universidad Finis Terrae</li>
+Magíster en Derecho de Minería	Universidad de Atacama	Magíster en Docencia Universitaria, Universidad Finis Terrae
 
 
-<li>Magíster en Derecho de la Empresa (M.D.E.), Pontificia Universidad Católica de Chile</li>
+Magíster en Derecho de la Empresa (MDE)	PUC
 
-<li>Master of Law (LLM) con mención en Derechos Humanos, Universidad de Harvard (EE.UU.)</li>
-<li>Máster en Derecho, Universidad de Columbia</li>
-<li>Master en Derecho Público General,&nbsp;Universidad de Paris I, Pantheón-Sorbonne (Francia)</li>
+Master of Law (LLM) con mención en Derechos Humanos	Universidad de Harvard (EE.UU.)
+Máster en Derecho	Universidad de Columbia
+Master en Derecho Público General	Universidad de Paris I, Pantheón-Sorbonne (Francia)
 
 
-<li>Magíster en Derecho, especialización en procedimientos contenciosos, arbitraje y métodos alternativos de solución de conflictos, Universidad Panthéon-Assas, París II (Francia)</li>
+Magíster en Derecho	especialización en procedimientos contenciosos, arbitraje y métodos alternativos de solución de conflictos, Universidad Panthéon-Assas, París II (Francia)
 
-<li>Máster en Economía y Derecho del Consumo, Universidad de Castilla-La Mancha, España</li>
-<li>Magíster en Derecho LLM, Pontificia Universidad Católica de Chile</li>
+Máster en Economía y Derecho del Consumo	Universidad de Castilla-La Mancha, España
+Magíster en Derecho LLM	PUC
 
 
-<li>Master en Derecho(LL.M), The Univertiy of Chicago Law School.</li>
+Master en Derecho(LLM)	The Univertiy of Chicago Law School
 
 
 
-<li>Master of Laws (LLM) in Tax Law, Queen Mary University of London, Reino Unido</li>
-<li>Master in Law, The University of Edinbugh, Reino Unido.</li>
+Master of Laws (LLM) in Tax Law	Queen Mary University of London, Reino Unido
+Master in Law	The University of Edinbugh, Reino Unido
 
 
 
-<li>Magíster en Derecho Procesal y a Doctor en Derecho, Universidad Nacional de Rosario (Argentina)</li>
-<li>Magíster en Sociedad Democrática, Estado y Derecho,&nbsp;Universidad del País Vasco / Euskal Herriko Unibertsitatea, España&nbsp;&nbsp;</li>
-<li>Master in Legal Institutions (MLI), Universidad de Wisconsin (EE.UU.)</li>
+Magíster en Derecho Procesal y a Doctor en Derecho	Universidad Nacional de Rosario (Argentina)
+Magíster en Sociedad Democrática	Estado y Derecho, Universidad del País Vasco / Euskal Herriko Unibertsitatea, España
+Master in Legal Institutions (MLI)	Universidad de Wisconsin (EE.UU.)
 
 
 
-<li>Master of Laws (LLM) in Advanced Studies in International Tax Law, ITC - Leiden University.</li>	<li>Magíster en Planificación y Gestión Tributaria, Universidad Santiago de Chile.</li>
-<li>Máster Contencioso, Arbitraje y Métodos Alternativos de Resolución de Conflictos, Paris II Panthéon - Assas, Francia</li>
+Master of Laws (LLM) in Advanced Studies in International Tax Law	ITC - Leiden University.	Magíster en Planificación y Gestión Tributaria, USACH
+Máster Contencioso	Arbitraje y Métodos Alternativos de Resolución de Conflictos, Paris II Panthéon - Assas, Francia
 
 
-<li>Máster Comercio y Finanzas Internacionales, Universidad de Barcelona, España</li>
-<li>Master of Law (LL.M.), Columbia University ( EE.UU.)</li>
-<li>Magíster en Economía, Notre Dame University (EE.UU.)</li>
+Máster Comercio y Finanzas Internacionales	Universidad de Barcelona, España
+Master of Law (LLM)	Columbia University ( EE.UU.)
+Magíster en Economía	Notre Dame University (EE.UU.)
 
-<li>Magíster en Ciencias Militares con mención en Política de Defensa,Academia de Guerra del Ejército de Chile</li>
-<li>Master in Laws, Duke University (EE.UU.)</li>
-<li>Master en Política Territorial y Urbanística, Universidad Carlos III de Madrid</li>	<li>Magíster en Derecho de Minería, Universidad de Atacama</li>
+Magíster en Ciencias Militares con mención en Política de Defensa,Academia de Guerra del Ejército de Chile
+Master in Laws	Duke University (EE.UU.)
+Master en Política Territorial y Urbanística	Universidad Carlos III de Madrid	Magíster en Derecho de Minería, Universidad de Atacama
 
 
 
-<li>Magíster en Derecho Penal y Ciencias Penales, Pontificia Universidad Católica de Valparaíso</li>
+Magíster en Derecho Penal y Ciencias Penales	Pontificia Universidad Católica de Valparaíso
 
 
-<li>Egresado Magister en Derecho del Trabajo y Seguridad Social, Universidad de Talca (Chile) y Valencia (España).</li>
-<li>Master of Law (LL.M.), Universidad de Duke (EE.UU.)</li>
+Egresado Magister en Derecho del Trabajo y Seguridad Social	Universidad de Talca (Chile) y Valencia (España)
+Master of Law (LLM)	Universidad de Duke (EE.UU.)
 
-<li>Magíster (LLM) en Derecho Tributario, Pontificia Universidad Católica de Chile</li>
+Magíster (LLM) en Derecho Tributario	PUC
 
 
 
-<li>Magíster en Derecho Mención Derecho Público</li>
-<li>Magíster en Derecho Tributario Internacional (LLM), University of Florida (EE.UU.)</li>	<li>Magíster en Derecho Tributario (LLM), Pontificia Universidad Católica de Chile</li>
-<li>Máster en Derecho, University of Chicago (EE.UU.)</li>	<li>Magíster en Derecho Público con Mención de Derecho Constitucional, Pontificia Universidad Católica de Chile</li>
+Magíster en Derecho Público
+Magíster en Derecho Tributario Internacional (LLM)	University of Florida (EE.UU.)	Magíster en Derecho Tributario (LLM), PUC
+Máster en Derecho	University of Chicago (EE.UU.)	Magíster en Derecho Público con Mención de Derecho Constitucional, PUC
 
 
-<li>Máster en Derecho, Harvard University (EE.UU.)</li>	<li>Máster en Derecho, University of Cambridge (Reino Unido)</li>	<li>Magíster en Derecho Público con Mención de Derecho Constitucional, Pontificia Universidad Católica de Chile</li>
+Máster en Derecho	Harvard University (EE.UU.)	Máster en Derecho, University of Cambridge (Reino Unido)	Magíster en Derecho Público con Mención de Derecho Constitucional, PUC
 
-<li>Magíster en Derecho Comparado, Universidad Complutense de Madrid (España)</li>
-<li>Master of Laws (LL.M in Comparative and International Dispute Resolution) Queen Mary, University of London, Inglaterra.</li>
-<li>Master of Science in Social Policy and Planning in Developing Countries,&nbsp;London School of Economics and Political Science (Reino Unido)</li>
-<li>Master of Laws in International Law, LL.M (int) Heidelberg University</li>	<li>Master en Derecho Internacional, Comercio, Investigaciones y Arbitraje, Universidad de Chile.</li>	<li>Magister Universitario en Derecho de la Unión Europea, Universidad de Complutense de Madrid, España</li>
+Magíster en Derecho Comparado	Universidad Complutense de Madrid (España)
+Master of Laws (LLM) Queen Mary	University of London, Inglaterra
+Master of Science in Social Policy and Planning in Developing Countries	London School of Economics and Political Science (Reino Unido)
+Master of Laws in International Law	LLM (int) Heidelberg University	Master en Derecho Internacional, Comercio, Investigaciones y Arbitraje, UCHILE.	Magister en Derecho de la Unión Europea, Universidad de Complutense de Madrid, España
 
-<li>Máster en Marketing y Gestión Comercial, Escuela de Negocios de Madrid (España)</li>
-<li>Magíster en Derecho, Universidad de Chile</li>
-<li>Master of Law, Stanford Law School (EE.UU)</li>
-<li>Magíster en Derecho Público, Pontificia Universidad Católica de Chile</li>
-<li>Magíster en Derecho, L.L.M., Harvard Law School (EE.UU.)</li>
+Máster en Marketing y Gestión Comercial	Escuela de Negocios de Madrid (España)
+Magíster en Derecho	UCHILE
+Master of Law	Stanford Law School (EE.UU)
+Magíster en Derecho Público	PUC
+Magíster en Derecho	L.L.M., Harvard Law School (EE.UU.)
 
-<li>Magíster en Derecho, L.L.M in U.S. Business and Trade Law, New York University School of Law (EE.UU.).</li>
-<li>Máster en Derecho Canónico, Universidad Pontificia de Salamanca, España</li>
+Magíster en Derecho	L.L.M in U.S. Business and Trade Law, New York University School of Law (EE.UU.)
+Máster en Derecho Canónico	Universidad Pontificia de Salamanca, España
 
-<li>Magíster en Ciencias Jurídicas, Pontificia Universidad Católica de Chile</li>
-<li>Magíster en Derecho Público con Mención en Derecho Constitucional, Pontificia Universidad Católica de Chile</li>	<li>Magíster en Investigación Jurídica, Universidad de Los Andes (Chile)&nbsp;</li>
-<li>Master in Laws (LL.M.) Área Tributaria y Financiera. Premio: Harlan Fiske Stone Scholar, Columbia University, USA</li>
-<li>Máster en Derecho (LL.M.), Harvard University (EE.UU.)</li>
-<li>Magíster en Derecho (LL.M), Universidad de Nueva York, EE.UU.</li>
-<li>Magíster en Derecho (LLM), The London School of Economics and Political Science (Reino Unido)</li>	<li>Magíster en Dirección Y Gestión Tributaria, Universidad Adolfo Ibáñez (Chile)</li>
+Magíster en Ciencias Jurídicas	PUC
+Magíster en Derecho Público con Mención en Derecho Constitucional	PUC	Magíster en Investigación Jurídica, Universidad de Los Andes (Chile)
+Master in Laws (LLM) Área Tributaria y Financiera. Premio: Harlan Fiske Stone Scholar	Columbia University, USA
+Máster en Derecho (LLM)	Harvard University (EE.UU.)
+Magíster en Derecho (LLM)	Universidad de Nueva York, EE.UU
+Magíster en Derecho (LLM)	The London School of Economics and Political Science (Reino Unido)	Magíster en Dirección Y Gestión Tributaria, Universidad Adolfo Ibáñez (Chile)
 
-<li>Magíster en Derecho (LL.M.) University of California, Los Angeles (UCLA), Estados Unidos. Especialidad en Dispute Resolution.</li>
+Magíster en Derecho (LLM) University of California	Los Angeles (UCLA), Estados Unidos. Especialidad en Dispute Resolution
 
 
-<li>Master in Law, LL.M., Berkeley, Universidad de California</li>
-<li>Master en Responsabilidad Civil, Universidad de Jaén en colaboración con el Instituto de Estudios Judiciales.</li>	<li>Magister en Derecho Penal, Universidad de Chile.</li>	<li>Master Especialización Tutela de Derecho Fundamentales: La Protección Jurisdiccional en Materia de Género y menores, Universidad de Jaén, en colaboración con el Instituto de Estudios Judiciales.</li>	<li>Magister en Derecho del Trabajo, Universidad Adolfo Ibañez.</li>
-<li>Magister en Derecho, Mención en Litigación, California Western School of Law, San Diego</li>	<li>Magister en Derecho, Mención en Derecho Constitucional, Pontificia Universidad Católica de Chile</li>
+Master in Law	LLM, Berkeley, Universidad de California
+Master en Responsabilidad Civil	Universidad de Jaén en colaboración con el Instituto de Estudios Judiciales.	Magister en Derecho Penal, UCHILE.	Master Especialización Tutela de Derecho Fundamentales: La Protección Jurisdiccional en Materia de Género y menores, Universidad de Jaén, en colaboración con el Instituto de Estudios Judiciales.	Magister en Derecho del Trabajo, Universidad Adolfo Ibañez
+Magister en Derecho	Mención en Litigación, California Western School of Law, San Diego	Magister en Derecho, Mención en Derecho Constitucional, PUC
 
-<li>Master of Laws (LL.M.) en la Universidad de Columbia (EE.UU.)&nbsp;</li>
+Master of Laws (LLM)	Universidad de Columbia (EE.UU.)
 
 
-<li>Máster en Derecho (LLM), Universidad de Chicago (EE.UU.)</li>	<li>Magíster en Derecho Público Mención Derecho Constitucional, Pontificia Universidad Católica de Chile</li>
-<li>Master of Law (LLM), Universidad de Duke (EE.UU.)</li>
-<li>Master en Derecho (LL.M.), Ruprecht-Karls Universität&nbsp;Heidelberg (Alemania)</li>
+Máster en Derecho (LLM)	Universidad de Chicago (EE.UU.)	Magíster en Derecho Público Mención Derecho Constitucional, PUC
+Master of Law (LLM)	Universidad de Duke (EE.UU.)
+Master en Derecho (LLM)	Ruprecht-Karls Universität Heidelberg (Alemania)
 
-<li>Master of Laws (LL.M), Columbia Law School (EE.UU.)</li>
-<li>Master of Law, University College London, Faculty of Laws</li>
-<li>Magíster en Derecho del Urbanismo y de la Construcción Mención en Política de Ciudades, Universidad de Aix-Marseille (Francia)</li>
+Master of Laws (LLM)	Columbia Law School (EE.UU.)
+Master of Law	University College London, Faculty of Laws
+Magíster en Derecho del Urbanismo y de la Construcción Mención en Política de Ciudades	Universidad de Aix-Marseille (Francia)
 
-<li>Magíster en Derecho de la Unión Europea, Universidad Complutense de Madrid (España)</li>	<li>Magíster en Derecho de la Empresa, Pontificia Universidad Católica de Chile</li>
+Magíster en Derecho de la Unión Europea	Universidad Complutense de Madrid (España)	Magíster en Derecho de la Empresa, PUC
 
-<li>Master in Business Administration, University of Chicago Booth School of Business (EE.UU.)</li>
+Master in Business Administration	University of Chicago Booth School of Business (EE.UU.)
 
-<li>Magíster en Ciencias Jurídicas, Pontificia Universidad Católica de Chile</li>	<li>Master Internacional en Derechos Humanos y Políticas Públicas con enfoque de Derechos, Instituto Internacional de Estudios Globales para el Desarrollo Humano&nbsp;</li>
-<li>Magíster en Epidemiología Clínica, Universidad de la Frontera, Temuco, Chile.</li>
-<li>Master in Law (LL.M), Law School Duke University N.C. USA</li>
-<li>Magíster en Derecho y Gestión Tributaria, Universidad Adolfo Ibáñez&nbsp;</li>
+Magíster en Ciencias Jurídicas	PUC	Master Internacional en Derechos Humanos y Políticas Públicas con enfoque de Derechos, Instituto Internacional de Estudios Globales para el Desarrollo Humano
+Magíster en Epidemiología Clínica	Universidad de la Frontera, Temuco, Chile
+Master in Law (LLM)	Law School Duke University N.C. USA
+Magíster en Derecho y Gestión Tributaria	Universidad Adolfo Ibáñez
 
 
 
-<li>Master of Laws (LL.M.), Universidad de Pennsylvania (EE.UU.)</li>
-<li>Master of Law (LL.M), Cambridge University. Cambridge, Reino Unido.&nbsp;</li>
-<li>Master of Laws (LL.M.), U.C. Berkeley (EE.UU.)</li>
+Master of Laws (LLM)	Universidad de Pennsylvania (EE.UU.)
+Master of Law (LLM)	Cambridge University. Cambridge, Reino Unido
+Master of Laws (LLM)	U.C. Berkeley (EE.UU.)
 
 
-<li>Magíster en Derecho, LL.M. Harvard Law School, Estados Unidos</li>
-<li>Máster en Derecho Tributario, Universidad Adolfo Ibáñez</li>
-<li>Master in Laws (LL.M.), Universidad de California, Berkeley, Estados Unidos</li>
+Magíster en Derecho	LLM Harvard Law School, Estados Unidos
+Máster en Derecho Tributario	Universidad Adolfo Ibáñez
+Master in Laws (LLM)	Universidad de California, Berkeley, Estados Unidos
 
-<li>Master in Law (LLM), Universidad de Harvard (EE.UU.)</li>
-<li>Master in Laws (LL.M), Columbia University, Estados Unidos</li>
-<li>Magíster LLM in Taxation, Universidad de Georgetown</li>
-<li>Master in Business Law, Universidad Adolfo Ibáñez, Santiago</li>	<li>Master en Derecho de la Globalización y de la Integración Social, Universidad de Navarra (España)</li>
+Master in Law (LLM)	Universidad de Harvard (EE.UU.)
+Master in Laws (LLM)	Columbia University, Estados Unidos
+Magíster LLM in Taxation	Universidad de Georgetown
+Master in Business Law	Universidad Adolfo Ibáñez, Santiago	Master en Derecho de la Globalización y de la Integración Social, Universidad de Navarra (España)
 
 
-<li>Máster en Ciencias jurídicas por la Universidad Pompeu Fabra (España, 2010)</li>
-<li>Máster en Derecho Privado (Derecho Comercial), Universidad de Kobe (Japón)</li>
+Máster en Ciencias jurídicas por la Universidad Pompeu Fabra (España	2010)
+Máster en Derecho Privado (Derecho Comercial)	Universidad de Kobe (Japón)
 
-<li>Máster en Humanitats, Universitat Autonoma de Barcelona (España)&nbsp;</li>
+Máster en Humanitats	Universitat Autonoma de Barcelona (España)
 
 
-<li>Master en Derecho con especialidad en Derecho Económico, Universidad de Navarra (España)</li>
-<li>Magíster en Filosofía, mención Epistemología, Universidad de Chile</li>	<li>Master en Agumentación Jurídica, Universidad de Alicante (España)</li>
+Master en Derecho con especialidad en Derecho Económico	Universidad de Navarra (España)
+Magíster en Filosofía	mención Epistemología, UCHILE	Master en Agumentación Jurídica, Universidad de Alicante (España)
 
 
-<li>Magíster en Planificación y Gestión Tributaria, Universidad de Chile</li>
+Magíster en Planificación y Gestión Tributaria	UCHILE
 
 
 
 
 
-<li>Magister en Dirección y Gestión Tributaria, Universidad Adolfo Ibáñez</li>
-<li>Magister en Derecho Público, Universidad de Chile</li>
+Magister en Dirección y Gestión Tributaria	Universidad Adolfo Ibáñez
+Magister en Derecho Público	UCHILE
 
-<li>Magíster en Humanidades y Pensamiento Científico mención Historia, Ideas y Sociedad, de la Universidad del Desarrollo</li>
-<li>Magíster en Derecho (LLM), Universidad de Leiden, Países Bajos</li>
+Magíster en Humanidades y Pensamiento Científico mención Historia	Ideas y Sociedad, de la Universidad del Desarrollo
+Magíster en Derecho (LLM)	Universidad de Leiden, Países Bajos
 
 
 
-<li>Master in Laws, Columbia University (EE.UU.)</li>
-<li>Magíster en Asesoría Fiscal, Universidad de Barcelona</li>
-<li>Magíster Políticas Públicas, Universidad de Chile</li>
-<li>Magíster en Ciecias Jurídicas, Pontificia Universidad Católica de Chile</li>	<li>Máster de Especialización en Derecho Penal, Universidad de Barcelona y Universidad Pompeu Fabra, España</li>
-<li>Máster en Propiedad Intelectual, University of Washington, School of Law.</li>
+Master in Laws	Columbia University (EE.UU.)
+Magíster en Asesoría Fiscal	Universidad de Barcelona
+Magíster Políticas Públicas	UCHILE
+Magíster en Ciecias Jurídicas	PUC	Máster de Especialización en Derecho Penal, Universidad de Barcelona y Universidad Pompeu Fabra, España
+Máster en Propiedad Intelectual	University of Washington, School of Law
 
 
-<li>Magíster en Derecho Constitucional mención Derecho Procesal Constitucional, Universidad de Talca</li>
+Magíster en Derecho Constitucional mención Derecho Procesal Constitucional	Universidad de Talca
 
-<li>Máster en Derecho Penal y Ciencias Penales, Universitat de Barcelona-Universitat Pompeu Fabra.</li>	<li>Magister en Derecho, Mención Derecho Penal, Universidad de Chile.</li>
-<li>Estudiante de Magíster en Derecho con mención en Constitucional, Pontificia Universidad Católica de Chile.</li>
+Máster en Derecho Penal y Ciencias Penales	Universitat de Barcelona-Universitat Pompeu Fabra.	Magister en Derecho, Mención Derecho Penal, UCHILE
+Estudiante de Magíster en Derecho con mención en Constitucional	PUC
 
-<li>Magíster en Derecho LLM, Universidad de Harvard (EE.UU.)</li>
+Magíster en Derecho LLM	Universidad de Harvard (EE.UU.)
 
-<li>Magíster en Derecho, Mención Derecho Constitucional, Pontificia Unviersidad Católica de Chile.</li>
+Magíster en Derecho	Mención Derecho Constitucional, Pontificia Unviersidad Católica de Chile
 
 
-<li>Magíster (LL.M.)Duke University School of Law, Durham, Carolina del Norte, USA, LLM.</li>
+Magíster (LLM) Duke University School of Law	Durham, Carolina del Norte, USA, LLM
 
 
-<li>Máster en Derecho, Mención Derecho Público, Universidad de Chile</li>	<li>Máster en Derecho Alemán y Europeo, Humboldt Universität zu Berlin</li>
+Máster en Derecho	Mención Derecho Público, UCHILE	Máster en Derecho Alemán y Europeo, Humboldt Universität zu Berlin
 
 
-<li>Master of Laws (LL.M.); Specialist Degree in Litigation and Dispute Resolution, University College of London</li>
-<li>Máster Universitario Avanzado en Ciencias Jurídicas, Universidad de Pompeu Fabra.</li>	<li>Máster en Derecho Penal y Ciencias Penales. Programa de doble titulación por las Universidades de Barcelona y Pompeu Fabra.</li>
+Master of Laws (LLM); Specialist Degree in Litigation and Dispute Resolution	University College of London
+Máster Universitario Avanzado en Ciencias Jurídicas	Universidad de Pompeu Fabra.	Máster en Derecho Penal y Ciencias Penales. Programa de doble titulación por las Universidades de Barcelona y Pompeu Fabra
 
-<li>Magister en Derecho Ambiental, Centro de Derecho Ambiental, Universidad de Chile</li>
-<li>Magíster en Derecho, mención Derecho Privado, Universidad de Concepción</li>
-<li>Master of Law (LL.M), University of Chicago (EE.UU.)</li>
-<li>Magíster en Derecho Laboral, Universidad Adolfo Ibáñez</li>
-<li>Máster en Artes Liberales (mención Filosofía), Universidad de Navarra (España)&nbsp;</li>
+Magister en Derecho Ambiental	Centro de Derecho Ambiental, UCHILE
+Magíster en Derecho Privado	Universidad de Concepción
+Master of Law (LLM)	University of Chicago (EE.UU.)
+Magíster en Derecho Laboral	Universidad Adolfo Ibáñez
+Máster en Artes Liberales (mención Filosofía)	Universidad de Navarra (España)
 
-<li>Magíster en Derecho (LL.M), Harvard Law School, Cambridge, MA, Estados Unidos</li>
-<li>Magíster, New York University.</li>	<li>Magíster, National University of Singapore.</li>
-<li>Magíster en Derecho Público con mención en Derecho Constitucional, Pontificia Universidad Católica de Chile</li>
+Magíster en Derecho (LLM)	Harvard Law School, Cambridge, MA, Estados Unidos
+Magíster	New York University.	Magíster, National University of Singapore
+Magíster en Derecho Público con mención en Derecho Constitucional	PUC
 
 
-<li>Magister LL.M., Northwestern University, Chicago, Illinois, EE.UU.</li>
-<li>Master of Laws (LL.M.) Columbia University, Estados Unidos</li>
+Magister LLM	Northwestern University, Chicago, Illinois, EE.UU
+Master of Laws (LLM) Columbia University	Estados Unidos
 
-<li>Máster en Derecho (MJur), Universidad de Oxford (Reino Unido)</li>
+Máster en Derecho (MJur)	Universidad de Oxford (Reino Unido)
 
-<li>Master in Laws, Universidad de Chicago (EE.UU.)&nbsp;</li>
-<li>Magíster en Estudios Internacionales, Universidad de Chile</li>
-<li>Magister en Derecho de Duke University (North Carolina, EE.UU.)</li>
-<li>Magíster en Sociología, Pontificia Universidad Católica de Chile</li>
+Master in Laws	Universidad de Chicago (EE.UU.)
+Magíster en Estudios Internacionales	UCHILE
+Magister en Derecho de Duke University (North Carolina	EE.UU.)
+Magíster en Sociología	PUC
 
 
 
-<li>Magíster en Derecho Público mención en Derecho Constitucional, Pontificia Universidad Católica de Chile</li>
+Magíster en Derecho Público mención en Derecho Constitucional	PUC
 
-<li>Master of Law in International and Comparative Law, Vrije Universiteit van Brussel (Bélgica)</li>	<li>Master en Gobierno y Administración Pública, Universidad Católica de Lovaina</li>
-<li>Máster en Políticas Públicas&nbsp;Harvard Kennedy School of Government, Cambridge, Estados Unidos</li>
+Master of Law in International and Comparative Law	Vrije Universiteit van Brussel (Bélgica)	Master en Gobierno y Administración Pública, Universidad Católica de Lovaina
+Máster en Políticas Públicas Harvard Kennedy School of Government	Cambridge, Estados Unidos
 
-<li>Magíster, Pontificia Universidad Católica de Chile.</li>
+Magíster	PUC
 
-<li>Master of Law (LLM), The University of Chicago Law School (Chicago, IL, USA)</li>
+Master of Law (LLM)	The University of Chicago Law School (Chicago, IL, USA)
 
-<li>Máster en Filosofía, Universidad de Navarra, España</li>
-<li>Máster en Derecho Penal y Ciencias Penales, Universitat Pompeu Fabra y la Universitat de Barcelona, España.</li>
+Máster en Filosofía	Universidad de Navarra, España
+Máster en Derecho Penal y Ciencias Penales	Universitat Pompeu Fabra y la Universitat de Barcelona, España
 
-<li>Magíster en Derecho, Mención en Derecho Regulatorio, Pontificia Universidad Católica de Chile</li>
-<li>Master en Derecho, Columbia University in the City of New York, Estados Unidos</li>
-<li>Magister en Derecho, Pontificia Universidad Católica de Chile</li>
-<li>Master of Public and International Law, The University of Melbourne</li>
-<li>Master of Sciences (MSc.) en Regulación, Depto de Gobierno, London School of Economics and Political Science, Reino Unido</li>	<li>Master in Laws (LLM.), Escuela de Derecho, University of California, Berkeley, EE.UU.</li>
-<li>Magíster en Ciencia Jurídica, Pontificia Universidad Católica de Chile</li>
+Magíster en Derecho	Mención en Derecho Regulatorio, PUC
+Master en Derecho	Columbia University in the City of New York, Estados Unidos
+Magister en Derecho	PUC
+Master of Public and International Law	The University of Melbourne
+Master of Sciences (MSc.) en Regulación	Depto de Gobierno, London School of Economics and Political Science, Reino Unido	Master in Laws (LLM), Escuela de Derecho, University of California, Berkeley, EE.UU
+Magíster en Ciencia Jurídica	PUC
 
 
-<li>Magíster en Derecho de Familia (s), Derecho de la Infancia y de la Adolescencia, Universidad de Chile</li>
+Magíster en Derecho de Familia (s)	Derecho de la Infancia y de la Adolescencia, UCHILE
 
 
-<li>Magíster en Derecho del Trabajo y de la Seguridad Social, Universidad de Chile</li>
-<li>Magíster en Derecho Penal, Universidad de Talca (sede Santiago)</li>
-<li>Magíster en Derecho LLM, Mención Constitucional (cursando),&nbsp; Pontificia Universidad Católica de Chile.</li>
-<li>Magíster en Derecho, Mención Derecho Privado, Universidad de Chile.</li>
-<li>Master of Science in Regulation (utilities regulation), The London School of Economics and Political Science, University of London, Inglaterra</li>
-<li>Magister en Derecho Público con mención en Derecho Constitucional, Pontificia Universidad Católica de Chile</li>
-<li>Master en Derecho Penal y Ciencias Penales, Universidad de Barcelona y la Universidad Pompeu Fabra.</li>
-<li>Magíster en Derecho Tributario, Universidad de Chile</li>
-<li>Magister en Derecho penal y Ciencias Penales, Universitat Pompeu Fabra y Universidad de Barcelona</li>
-<li>Master of Law (LL.M.), Columbia University, New York.</li>
-<li>Master in Public Administration (MPA) New York University (NYU)</li>
-<li>Master of Business Administration MBA, Universidad Pontificia Comillas ICADE-España</li>
-<li>Magister en Derecho Penal, Universidad de Chile</li>
-<li>Magíster en Derecho LLM mención Derecho Constitucional, Pontificia Universidad Católica de Chile</li>
+Magíster en Derecho del Trabajo y de la Seguridad Social	UCHILE
+Magíster en Derecho Penal	Universidad de Talca (sede Santiago)
+Magíster en Derecho LLM	Mención Constitucional (cursando),  PUC
+Magíster en Derecho	Mención Derecho Privado, UCHILE
+Master of Science in Regulation (utilities regulation)	The London School of Economics and Political Science, University of London, Inglaterra
+Magister en Derecho Público con mención en Derecho Constitucional	PUC
+Master en Derecho Penal y Ciencias Penales	Universidad de Barcelona y la Universidad Pompeu Fabra
+Magíster en Derecho Tributario	UCHILE
+Magister en Derecho penal y Ciencias Penales	Universitat Pompeu Fabra y Universidad de Barcelona
+Master of Law (LLM)	Columbia University, New York
+Master in Public Administration (MPA) New York University (NYU)
+Master of Business Administration MBA	Universidad Pontificia Comillas ICADE-España
+Magister en Derecho Penal	UCHILE
+Magíster en Derecho LLM mención Derecho Constitucional	PUC
 
-<li>Master Oficial en Ciencias del Matrimonio y la Familia, Sección española del Pontificio Instituto Juan Pablo II.</li>
-<li>Master of Studies in Historical Research, Universidad de Oxford, Inglaterra</li>	<li>Magister en Humanidades, Universidad Adolfo Ibáñez</li>
+Master Oficial en Ciencias del Matrimonio y la Familia	Sección española del Pontificio Instituto Juan Pablo II
+Master of Studies in Historical Research	Universidad de Oxford, Inglaterra	Magister en Humanidades, Universidad Adolfo Ibáñez
 
 
 
-<li>Magister en Ciencias Jurídicas, Pontifica Universidad Catolica de Chile</li>
+Magister en Ciencias Jurídicas	Pontifica Universidad Catolica de Chile
 
-<li>Master in Laws (LL.M) en Derecho Comparativo, Universidad de Nueva York</li>
-<li>Master of Laws de Northwestern University (Estados Unidos)</li>
+Master in Laws (LLM) en Derecho Comparativo	Universidad de Nueva York
+Master of Laws de Northwestern University (Estados Unidos)
 
-<li>Magíster en Dirección y Gestión Tributaria, Universidad Adolfo Ibáñez</li>	<li>Master en Derecho Civil, Universidad de Navarra, España</li>
-<li>Master en Derecho LLM, Universidad de Columbia, Estados Unidos&nbsp;</li>
-<li>Master of Law (LLM), Georgetown University Law Center</li>
-<li>Magíster en Derecho del Trabajo, Universidad de Chile</li>
+Magíster en Dirección y Gestión Tributaria	Universidad Adolfo Ibáñez	Master en Derecho Civil, Universidad de Navarra, España
+Master en Derecho LLM	Universidad de Columbia, Estados Unidos
+Master of Law (LLM)	Georgetown University Law Center
+Magíster en Derecho del Trabajo	UCHILE
 
-<li>Master of Business Administration, Sauder School of Business, University of British Columbia, Shanghai, China</li>
-<li>LLM, Magíster en Derecho, Pontificia Universidad Católica de Chile</li>
+Master of Business Administration	Sauder School of Business, University of British Columbia, Shanghai, China
+LLM	Magíster en Derecho, PUC
 
 
-<li>Master en Derecho LL.M., Universidad de Columbia, Nueva York, Estados Unidos</li>
-<li>Master en Derecho, LL.M, University of London</li>
-<li>Master Of Studies Legal Research, Oxford University, Reino Unido.</li>
+Master en Derecho LLM	Universidad de Columbia, Nueva York, Estados Unidos
+Master en Derecho	LLM, University of London
+Master Of Studies Legal Research	Oxford University, Reino Unido
 
-<li>Magíster en Derecho LL.M., Facultad de Derecho, Berkeley, Universidad de California, EE.UU</li>
+Magíster en Derecho LLM	Facultad de Derecho, Berkeley, Universidad de California, EE.UU
 
 
-<li>Magíster, University of Warwick, Reino Unido</li>
-<li>Master of Laws (LL.M.). Concentration in Global Energy, International Arbitration, and Environment,&nbsp;The University of Texas, School of Law</li>
+Magíster	University of Warwick, Reino Unido
+Master of Laws (LLM). Concentration in Global Energy	International Arbitration, and Environment, The University of Texas, School of Law
 
-<li>Magíster en Derecho, Propiedad Intelectual, The George Washington University, Estados Unidos</li>
+Magíster en Derecho	Propiedad Intelectual, The George Washington University, Estados Unidos
 
 
-<li>Master of Law, Northwestern University, Estados Unidos&nbsp;</li>
-<li>Master in Law, University of California, Berkeley, Boalt Hall School of Law (EE.UU.)</li>
-<li>Master in Environmental Law, University of Melbourne, Australia</li>
-<li>Master of Laws (LL.M.),&nbsp;The University of Michigan, Estados Unidos</li>
-<li>Magíster en Derecho, Standford University</li>
-<li>Magister en Derecho Postítulo en Criminología, Universidad Complutense de Madrid, España</li>
-<li><span style="color: #222222; font-family: arial, sans-serif; font-size: 12.8px;">Magíster en Derecho de la Empresa, Pontificia Universidad Católica de Chile.</span></li>
+Master of Law	Northwestern University, Estados Unidos
+Master in Law	University of California, Berkeley, Boalt Hall School of Law (EE.UU.)
+Master in Environmental Law	University of Melbourne, Australia
+Master of Laws (LLM)	The University of Michigan, Estados Unidos
+Magíster en Derecho	Standford University
+Magister en Derecho Postítulo en Criminología	Universidad Complutense de Madrid, España
+<span style="color: #222222; font-family: arial	sans-serif; font-size: 12.8px;">Magíster en Derecho de la Empresa, PUC.</span>
 
-<li>Candidato a Magister en Derecho, Universidad de Chile</li>
-<li>Magister en Derecho (LL.M.), University of California at Berkeley</li>
+Candidato a Magister en Derecho	UCHILE
+Magister en Derecho (LLM)	University of California at Berkeley
 
 
-<li>Magister en Tributación, Universidad de Chile</li>
-<li>Egresada de Magíster en Ciencia Política, Pontificia Universidad Católica de Chile</li>
+Magister en Tributación	UCHILE
+Magíster en Ciencia Política	PUC
 
 
 
-<li>Magíster en Ciencias Jurídicas, Pontificia Universidad Católica de Chile</li>
-<li>Master en la Escuela de Derecho de la Universidad de New York (EE.UU.).&nbsp;</li>
-<li>Master of Law (Merit) con mención en Derecho Corporativo, London School of Economics and Political Science</li>
+Magíster en Ciencias Jurídicas	PUC
+Master en la Escuela de Derecho de la Universidad de New York (EE.UU.)
+Master of Law (Merit) con mención en Derecho Corporativo	London School of Economics and Political Science
 
-<li>Máster Avanzado en Ciencias Jurídicas, Universitat Pompeau Fabra, Barcelona, España</li>
-<li>Magíster Derecho de Minería, Universidad de Atacama (Chile)</li>
-<li>Máster en Derecho,&nbsp;Universidad Harvard (EE.UU.)&nbsp;</li>	<li>Magíster en Ciencia Política, Pontificia Universidad Católica de Chile</li>
-<li>Master of Laws (LL.M.), University of Michigan (Ann Arbor, EE.UU.)</li>
+Máster Avanzado en Ciencias Jurídicas	Universitat Pompeau Fabra, Barcelona, España
+Magíster Derecho de Minería	Universidad de Atacama (Chile)
+Máster en Derecho	Universidad Harvard (EE.UU.) 	Magíster en Ciencia Política, PUC
+Master of Laws (LLM)	University of Michigan (Ann Arbor, EE.UU.)
