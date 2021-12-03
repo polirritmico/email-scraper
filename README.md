@@ -34,6 +34,7 @@ Un archivo txt con una url por línea. El programa respeta las líneas vacías p
 
 ### Archivo de salida:
 El archivo contendrá por cada línea las coincidencias de la búsqueda separadas por un tabulador (\\t). Las líneas vacías coincidirán con las líneas vacías del archivo de entrada.
+Si no se proporciona un archivo de salida el archivo de salida por defecto es [out.txt].
 
 ### Archivo de Configuración:
 Dentro de **config.py** se puede configurar para que funcione el modo javascript y los parámetros de búsqueda (RegEx). Dentro del archivo hay más información.
