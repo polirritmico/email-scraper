@@ -40,7 +40,7 @@ def scrapFile(input_file, verbose, javascript):
     return page.getMatchData()
 
 def scrapListUrl(input_file, verbose, javascript, delay):
-    collection = PagesCollection(input_file, verbose, delay, javascript)
+    collection = PagesCollection(input_file, verbose, javascript, delay)
     collection.scrapUrlList()
 
     return collection.getDataList()
