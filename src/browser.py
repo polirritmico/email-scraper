@@ -12,9 +12,9 @@ class Browser:
 		# Setting up the Browser
 		self.options = Options()
 		self.options.binary_location = FIREFOX_PATH
-		self.options.headless = True
+		#self.options.headless = True
 		self.driver = webdriver.Firefox( executable_path=GECKO_PATH \
-		                           , options=self.options)
+		                               , options=self.options )
 
 	def loadWeb(self, url):
 		# Get the web from the internet
