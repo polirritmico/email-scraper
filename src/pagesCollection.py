@@ -31,9 +31,12 @@ class PagesCollection:
             return -1
 
     def scrapUrlList(self):
-        if self.verbose: print(SEP + "RegEx matches:\n" + SEP)
+        if self.verbose:
+            print(SEP + "RegEx matches:\n" + SEP)
+            counter = 1
 
         for url in self.url_list:
+            counter += 1
             #data_buffer.append("===========") # When a sep is needed
             if url == "":
                 self.collected_data.append("")
@@ -52,7 +55,10 @@ class PagesCollection:
             # Add a delay to avoid bans
             time.sleep(self.delay)
 
-        if self.verbose: print(SEP)
+        if self.verbose:
+            print(SEP)
+            print("Procesadas {0} páginas".format(counter))
+
         # Browser must be closed or will remain running on background
         if self.javascript: self.browser.quit()
 
