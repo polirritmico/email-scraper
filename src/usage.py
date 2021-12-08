@@ -18,6 +18,8 @@ Opciones:
                     cada url. No funciona en el modo JavaScript.
   -j, --javascript  Obtiene el HTML a través de un "navegador virtual".
                     Se debe configurar en <config.py>.
+  -s, --source      Descarga el código de la página. Funciona solo para
+                    el modo --url.
 
 Modo:
   -l, --list        Para procesar un archivo de lista.
