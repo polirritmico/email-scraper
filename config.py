@@ -22,7 +22,8 @@ GECKO_LOG_PATH = r"WebDriver/geckodriver.log"
 #                         REGEX SEARCH PATTERN
 # #####################################################################
 #
-# Adjust the SEARCH value to search what you want.
+# Adjust the SEARCH value to search what you want or uncomment one of
+# the current ones.
 # Must be inside a raw string: r""""""
 #
 # More info about Regex:
