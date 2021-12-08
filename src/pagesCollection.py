@@ -38,6 +38,8 @@ class PagesCollection:
             counter = 0
 
         for url in self.url_list:
+            # Add a SEP between each case (e.g. multiline matches)
+            #data_buffer.append("===========")
             if url == "":
                 self.collected_data.append("")
                 if self.verbose: print("")
