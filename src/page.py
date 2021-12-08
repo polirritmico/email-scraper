@@ -12,13 +12,13 @@ class Page:
         self.page_data    = []
 
     def readHTML(self):
-        # Get the web from internet
+        # Get the data from internet
         raw_page = requests.get(self.url)
         # Get the HTML code
         self.html_text = raw_page.text
 
     def readHTML_JS(self, browser):
-        # Get the web from the internet
+        # Get the HTML from the internet
         self.html_text = browser.loadWeb(self.url)
 
     def readFile(self):
