@@ -16,6 +16,7 @@ Busca y descarga las páginas especificadas en el ARCHIVO/URL y devuelve los res
 - **-d**, *--delay[=SEG]* Para añadir un tiempo en segundos de espera entre cada url. No funciona en el modo JavaScript.
 - **-j**, *--javascript*  Obtiene el HTML a través de un "navegador virtual".
                     Se debe configurar en **config.py**.
+- **-s**, *--source*      Descarga el código fuente de la página. Funciona solo para el modo --url.
 
 ## Modo:
 - **-l**, *--list*        Para procesar un archivo de lista.
