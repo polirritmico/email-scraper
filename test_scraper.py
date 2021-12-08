@@ -74,7 +74,7 @@ class TestMails(unittest.TestCase):
         file = "testFiles/simple_list.txt"
         expected = """alejandro.vergara@uc.cl\naferman@uc.cl"""
 
-        collection = PagesCollection(file, regex=REGEX_MAIL)
+        collection = PagesCollection(file, regex = REGEX_MAIL)
         collection.scrapUrlList()
         out = collection.getDataList()
 
@@ -86,7 +86,7 @@ class TestList(unittest.TestCase):
         file = "testFiles/simple_list.txt"
         expected="""http://derecho.uc.cl/es/profesores/nomina-por-departamento/departamento-de-derecho-publico/2201-vergara-blanco-alejandro\nhttp://derecho.uc.cl/es/profesores/nomina-por-departamento/departamento-de-derecho-publico/459-fermandois-vohringer-arturo"""
 
-        collection = PagesCollection(file, regex=REGEX_MAIL)
+        collection = PagesCollection(file, regex = REGEX_MAIL)
         out = "\n".join(collection.url_list)
 
         self.assertEqual(expected, out)
@@ -95,7 +95,7 @@ class TestList(unittest.TestCase):
         file = "testFiles/skip_list_element-01.txt"
         expected = """alyonp@uc.cl\n\nalejandro.vergara@uc.cl\naferman@uc.cl"""
 
-        collection = PagesCollection(file, regex=REGEX_MAIL)
+        collection = PagesCollection(file, regex = REGEX_MAIL)
         collection.scrapUrlList()
         out = collection.getDataList()
 
@@ -105,7 +105,7 @@ class TestList(unittest.TestCase):
         file = "testFiles/skip_list_element-02.txt"
         expected = """fabbott@derecho.uchile.cl\tmesadeayuda@uchile.cl\nsaccorsi@derecho.uchile.cl\tmesadeayuda@uchile.cl\n\npaguayo@derecho.uchile.cl\tmesadeayuda@uchile.cl\nfaguero@derecho.uchile.cl\tmesadeayuda@uchile.cl\n\n\nlaguirre@derecho.uchile.cl\tmesadeayuda@uchile.cl"""
 
-        collection = PagesCollection(file, regex=REGEX_MAIL)
+        collection = PagesCollection(file, regex = REGEX_MAIL)
         collection.scrapUrlList()
         out = collection.getDataList()
 
