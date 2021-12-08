@@ -28,7 +28,7 @@ def scrapUrl(url, verbose, javascript, full_html):
 
     page.processHTML()
 
-    if verbose:   print(page.getMatchData() + SEP)
+    if verbose:   print(page.getMatchData() + "\n" + SEP)
     if full_html: print("Descargado el HTML completo.")
 
     return page.getMatchData()
