@@ -112,7 +112,7 @@ class TestList(unittest.TestCase):
 class TestSearches(unittest.TestCase):
     def test_get_magister_uandes(self):
         url = "https://www.uandes.cl/personas/manuel-bernet-paez/"
-        expected = ">Máster en Derecho Privado, Ilustre Colegio de Abogados de Madrid, España.<"
+        expected = "<li>Máster en Derecho Privado, Ilustre Colegio de Abogados de Madrid, España.</li>"
 
         page = Page(url)
         page.readHTML()
