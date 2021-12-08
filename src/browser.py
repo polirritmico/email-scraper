@@ -12,8 +12,8 @@ class Browser:
 		self.options.binary_location = FIREFOX_PATH
 		#self.options.headless = True
 		self.driver = webdriver.Firefox( executable_path=GECKO_PATH    \
-		                               , options=self.options          \
-		                               , service_log_path=GECKO_LOG_PATH)
+                                       , options=self.options          \
+                                       , service_log_path=GECKO_LOG_PATH)
 
 	def loadWeb(self, url):
 		# Get the web from the internet
