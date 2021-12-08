@@ -3,13 +3,13 @@
 
 import re
 import requests
-from config import SEARCH
 
 class Page:
-    def __init__(self, _url):
-        self.url = _url
-        self.html_text = ""
-        self.page_data = []
+    def __init__(self, _url, regex):
+        self.url          = _url
+        self.html_text    = ""
+        self.regex_search = regex
+        self.page_data    = []
 
     def readHTML(self):
         # Get the web from internet
@@ -32,7 +32,7 @@ class Page:
 
     def processHTML(self):
         data_buffer = []
-        for match in re.finditer(SEARCH, self.html_text):
+        for match in re.finditer(self.regex_search, self.html_text):
             data_buffer.append(match.group(0))
 
         # Filter the result and remove duplicates
