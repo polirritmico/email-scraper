@@ -14,18 +14,22 @@ def launchBrowser(page):
     page.readHTML_JS(browser)
     browser.quit()
 
-def scrapUrl(url, verbose, javascript):
+def scrapUrl(url, verbose, javascript, full_html):
     if verbose: print(SEP + "RegEx matches:\n" + SEP)
 
-    page = Page(url)
+    if full_html:
+        page = Page(url, r".*")
+    else:
+        page = Page(url)
     if javascript:
         launchBrowser(page)
     else:
         page.readFile()
+
     page.processHTML()
 
-    if verbose: print(page.getMatchData())
-    if verbose: print(SEP)
+    if verbose:   print(page.getMatchData() + SEP)
+    if full_html: print("Descargado el HTML completo.")
 
     return page.getMatchData()
 
@@ -54,11 +58,11 @@ def writeOutFile(out_data, outfile):
 def main(argv):
     # Check input parameters
     try:
-        opts, args = getopt.getopt( sys.argv[1:]   , "hvjd:luf"   \
-                                  , [ "help"       , "verbose"    \
-                                    , "javascript" , "delay="     \
-                                    , "list"       , "url"        \
-                                    , "file" ])
+        opts, args = getopt.getopt( sys.argv[1:]   , "hvjsd:luf"   \
+                                  , [ "help"       , "verbose"     \
+                                    , "javascript" , "source"      \
+                                    , "delay="     , "list"        \
+                                    , "url"        , "file" ])
     except getopt.GetoptError:
         print("Simple-scraper: Opción inválida.")
         short_usage()
@@ -73,6 +77,7 @@ def main(argv):
     verbose     = False
     delay       = 0.125
     javascript  = False
+    full_html   = False
     out_file    = "out.txt"
     in_file     = ""
     out_data    = ""
@@ -100,13 +105,15 @@ def main(argv):
             javascript = True
         elif opt in ("-d", "--delay"):
             delay = float(arg)
+        elif opt in ("-s", "--source"):
+            full_html = True
 
         # Run the proper mode
         elif opt in ("-l", "--list"):
             out_data = scrapListUrl(in_file, verbose, javascript, delay)
             break
         elif opt in ("-u", "--url"):
-            out_data = scrapUrl(in_file, verbose, javascript)
+            out_data = scrapUrl(in_file, verbose, javascript, full_html)
             break
         elif opt in ("-f", "--file"):
             out_data = scrapFile(in_file, verbose, javascript)
