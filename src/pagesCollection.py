@@ -4,8 +4,8 @@
 import time
 from src.page import Page
 from src.browser import Browser
+from src.usage import SEP
 
-SEP = "----------------------------------\n"
 
 class PagesCollection:
     def __init__(self, _file, _verb = False, js = False, delay = 0.125):

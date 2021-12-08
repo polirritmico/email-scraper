@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+SEP = "----------------------------------\n"
+
 def short_usage():
     print("Utilice la opción --help para obtener ayuda.")
 

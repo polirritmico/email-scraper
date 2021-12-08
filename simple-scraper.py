@@ -3,7 +3,7 @@
 
 import sys
 import getopt
-from src.pagesCollection import PagesCollection, SEP
+from src.pagesCollection import PagesCollection
 from src.page import Page
 from src.browser import Browser
 from src.usage import *
