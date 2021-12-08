@@ -53,7 +53,11 @@ def writeOutFile(out_data, outfile):
 def main(argv):
     # Check input parameters
     try:
-        opts, args = getopt.getopt( sys.argv[1:] , "hvjd:luf", ["help", "verbose", "javascript", "delay=" , "list" , "url", "file"])
+        opts, args = getopt.getopt( sys.argv[1:]   , "hvjd:luf"   \
+                                  , [ "help"       , "verbose"    \
+                                    , "javascript" , "delay="     \
+                                    , "list"       , "url"        \
+                                    , "file" ])
     except getopt.GetoptError:
         print("Simple-scraper: Opción inválida.")
         short_usage()
