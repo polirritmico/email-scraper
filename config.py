@@ -99,5 +99,6 @@ SEARCH = r""
 # ####################################
 # UANDES
 
-SEARCH = r"""<p>[ \n\t]*<strong>Dedicación:</strong>[ \n\t]*</p>[ \n\t]*<ul>[ \n\t]*<li>[ \n\t]*(.*?)[ \n\t]*</li>[ \n\t]*</ul>"""
+# Cargos. Descomentar pagesCollection.py línea 42 para añadir separador
+SEARCH = r"""(<p class=\"person-title\">[ \n\t]*(.+?)</p>)|(<p>[ \n\t]*<strong>Dedicación:</strong>[ \n\t]*</p>[ \n\t]*<ul>[ \n\t]*<li>[ \n\t]*(.*?)[ \n\t]*</li>)|(<h2>[ \n\t]*Categoría Académica</h2>[ \n\t]*<ul>[ \n\t]*<li>[ \n\t]*(.*?)</li>)"""
 

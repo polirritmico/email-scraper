@@ -1,211 +1,98 @@
-===========
-<p><strong>Dedicación:</strong></p>
-<ul>
-<li>Profesor media jornada.</li>
-===========
-<p><strong>Dedicación:</strong></p>
-<ul>
-<li>Profesor hora.</li>
-===========
-<p><strong>Dedicación:</strong></p>
-<ul>
-<li>Jornada completa.</li>
-===========
-<p><strong>Dedicación:</strong></p>
-<ul>
-<li>Profesor hora.</li>
-===========
+Profesor media jornada
+Profesor hora
+Jornada completa
+Profesor hora
 
-===========
 
-===========
-<p class="person-title">Directora del Programa de Doctorado en Derecho | Directora Departamento de Derecho Procesal y Litigación</p>
-===========
+Directora del Programa de Doctorado en Derecho	Directora Departamento de Derecho Procesal y Litigación
 
-===========
 
-===========
-<p class="person-title">Director Centro de Derecho de Seguros</p>
-===========
-<p class="person-title">Director Departamento de Derecho Público </p>
-===========
+Director Centro de Derecho de Seguros
+Director Departamento de Derecho Público
 
-===========
 
-===========
 
-===========
-<p class="person-title">Director Departamento de Derecho Tributario </p>
-===========
+Director Departamento de Derecho Tributario
 
-===========
-<p class="person-title">Director Departamento de Derecho Comercial y de la Empresa </p>
-===========
+Director Departamento de Derecho Comercial y de la Empresa
 
-===========
-<p class="person-title">Primer Rector Universidad de los Andes </p>
-===========
+Primer Rector Universidad de los Andes
 
-===========
-<p class="person-title">Director Departamento de Historia del Derecho</p>
-===========
+Director Departamento de Historia del Derecho	Profesor Titular Ordinario
 
-===========
 
-===========
 
-===========
 
-===========
 
-===========
-<p class="person-title">Secretaria Académica</p>
-===========
+Secretaria Académica
 
-===========
 
-===========
 
-===========
 
-===========
 
-===========
 
-===========
 
-===========
 
-===========
 
-===========
 
-===========
 
-===========
-<p class="person-title">Director Departamento de Derecho Penal</p>
-===========
+Director Departamento de Derecho Penal
 
-===========
 
-===========
 
-===========
 
-===========
 
-===========
-<p class="person-title">Director Máster en Tributación de la Empresa </p>
-===========
+Director Máster en Tributación de la Empresa
 
-===========
 
-===========
 
-===========
 
-===========
-<p class="person-title">Vicedecano Económico </p>
-===========
+Vicedecano Económico
 
-===========
 
-===========
-<p><strong>Dedicación:</strong></p>
-<ul>
-<li>Profesor hora.</li>
-===========
+Profesor hora
 
-===========
 
-===========
 
-===========
 
-===========
-<p class="person-title">Director Clínica Jurídica Universidad de los Andes</p>	<p><strong>Dedicación:</strong></p>
-<ul>
-<li>Profesor hora.</li>
-===========
+Director Clínica Jurídica Universidad de los Andes	Profesor hora
 
-===========
-<p class="person-title">Secretaria Ejecutiva de Postgrado y Educación Continua </p>
-===========
+Secretaria Ejecutiva de Postgrado y Educación Continua
 
-===========
 
-===========
-<p class="person-title">Decano</p>
-===========
+Decano
 
-===========
-<p class="person-title">Vicedecano Académico</p>
-===========
-<p class="person-title">Miembro Comité Ejecutivo Centro de Derecho de Seguros</p>
-===========
+Vicedecano Académico
+Miembro Comité Ejecutivo Centro de Derecho de Seguros
 
-===========
 
-===========
 
-===========
-<p class="person-title">Director Departamento de Derecho Económico</p>
-===========
-<p class="person-title">Subdirectora de Doctorado</p>
-===========
+Director Departamento de Derecho Económico
+Subdirectora de Doctorado
 
-===========
 
-===========
 
-===========
 
-===========
 
-===========
 
-===========
 
-===========
 
-===========
-<p class="person-title">Directora Desarrollo Docente</p>
-===========
+Directora Desarrollo Docente
 
-===========
-<p class="person-title"> Director Departamento de Derecho Civil y Romano</p>
-===========
-<p class="person-title">Director Departamento de Derecho Laboral</p>
-===========
+Director Departamento de Derecho Civil y Romano
+Director Departamento de Derecho Laboral
 
-===========
 
-===========
 
-===========
 
-===========
-<p><strong>Dedicación:</strong></p>
-<ul>
-<li>Profesor hora.</li>
-===========
-<p class="person-title">Directora Instituto de Ciencias de la Familia</p>
-===========
-<p class="person-title">Vicedecana de Alumnos</p>
-===========
+Profesor hora
+Directora Instituto de Ciencias de la Familia
+Vicedecana de Alumnos
 
-===========
 
-===========
 
-===========
 
-===========
 
-===========
-<p class="person-title">Director Departamento de Derecho Internacional Público</p>
-===========
+Director Departamento de Derecho Internacional Público
+Profesor Instructor
 
-===========
-
-===========
