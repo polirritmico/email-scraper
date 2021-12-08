@@ -73,7 +73,7 @@ def main(argv):
         if opt in ("-h", "--help"):
             usage()
             return 0
- 
+
     verbose     = False
     delay       = 0.125
     javascript  = False
@@ -81,7 +81,6 @@ def main(argv):
     out_file    = "out.txt"
     in_file     = ""
     out_data    = ""
-
 
     # Setting input/output
     try:
@@ -127,7 +126,7 @@ def main(argv):
     if out_data == "":
         print("No se procesaron datos.")
         return -1
-    
+
     print("Procesado OK\nEscribiendo archivo {0}...".format(out_file))
     try:
         writeOutFile(out_data, out_file)
