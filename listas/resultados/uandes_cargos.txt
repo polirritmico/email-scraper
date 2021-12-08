@@ -1,0 +1,211 @@
+===========
+<p><strong>Dedicación:</strong></p>
+<ul>
+<li>Profesor media jornada.</li>
+===========
+<p><strong>Dedicación:</strong></p>
+<ul>
+<li>Profesor hora.</li>
+===========
+<p><strong>Dedicación:</strong></p>
+<ul>
+<li>Jornada completa.</li>
+===========
+<p><strong>Dedicación:</strong></p>
+<ul>
+<li>Profesor hora.</li>
+===========
+
+===========
+
+===========
+<p class="person-title">Directora del Programa de Doctorado en Derecho | Directora Departamento de Derecho Procesal y Litigación</p>
+===========
+
+===========
+
+===========
+<p class="person-title">Director Centro de Derecho de Seguros</p>
+===========
+<p class="person-title">Director Departamento de Derecho Público </p>
+===========
+
+===========
+
+===========
+
+===========
+<p class="person-title">Director Departamento de Derecho Tributario </p>
+===========
+
+===========
+<p class="person-title">Director Departamento de Derecho Comercial y de la Empresa </p>
+===========
+
+===========
+<p class="person-title">Primer Rector Universidad de los Andes </p>
+===========
+
+===========
+<p class="person-title">Director Departamento de Historia del Derecho</p>
+===========
+
+===========
+
+===========
+
+===========
+
+===========
+
+===========
+<p class="person-title">Secretaria Académica</p>
+===========
+
+===========
+
+===========
+
+===========
+
+===========
+
+===========
+
+===========
+
+===========
+
+===========
+
+===========
+
+===========
+
+===========
+<p class="person-title">Director Departamento de Derecho Penal</p>
+===========
+
+===========
+
+===========
+
+===========
+
+===========
+
+===========
+<p class="person-title">Director Máster en Tributación de la Empresa </p>
+===========
+
+===========
+
+===========
+
+===========
+
+===========
+<p class="person-title">Vicedecano Económico </p>
+===========
+
+===========
+
+===========
+<p><strong>Dedicación:</strong></p>
+<ul>
+<li>Profesor hora.</li>
+===========
+
+===========
+
+===========
+
+===========
+
+===========
+<p class="person-title">Director Clínica Jurídica Universidad de los Andes</p>	<p><strong>Dedicación:</strong></p>
+<ul>
+<li>Profesor hora.</li>
+===========
+
+===========
+<p class="person-title">Secretaria Ejecutiva de Postgrado y Educación Continua </p>
+===========
+
+===========
+
+===========
+<p class="person-title">Decano</p>
+===========
+
+===========
+<p class="person-title">Vicedecano Académico</p>
+===========
+<p class="person-title">Miembro Comité Ejecutivo Centro de Derecho de Seguros</p>
+===========
+
+===========
+
+===========
+
+===========
+<p class="person-title">Director Departamento de Derecho Económico</p>
+===========
+<p class="person-title">Subdirectora de Doctorado</p>
+===========
+
+===========
+
+===========
+
+===========
+
+===========
+
+===========
+
+===========
+
+===========
+
+===========
+<p class="person-title">Directora Desarrollo Docente</p>
+===========
+
+===========
+<p class="person-title"> Director Departamento de Derecho Civil y Romano</p>
+===========
+<p class="person-title">Director Departamento de Derecho Laboral</p>
+===========
+
+===========
+
+===========
+
+===========
+
+===========
+<p><strong>Dedicación:</strong></p>
+<ul>
+<li>Profesor hora.</li>
+===========
+<p class="person-title">Directora Instituto de Ciencias de la Familia</p>
+===========
+<p class="person-title">Vicedecana de Alumnos</p>
+===========
+
+===========
+
+===========
+
+===========
+
+===========
+
+===========
+<p class="person-title">Director Departamento de Derecho Internacional Público</p>
+===========
+
+===========
+
+===========
