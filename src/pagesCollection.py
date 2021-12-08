@@ -8,8 +8,8 @@ from src.usage import SEP
 
 
 class PagesCollection:
-    def __init__(self, _file, _verb = False, js = False, delay = 0.125):
-        self.verbose        = _verb
+    def __init__(self, _file, verb = False, js = False, delay = 0.125):
+        self.verbose        = verb
         self.delay          = delay
         self.javascript     = js
 
