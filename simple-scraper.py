@@ -22,8 +22,8 @@ def scrapUrl(url, verbose, javascript):
     else:
         page.readFile()
     page.processHTML()
-    if verbose: print(page.getMatchData())
 
+    if verbose: print(page.getMatchData())
     if verbose: print(SEP)
 
     return page.getMatchData()
