@@ -13,7 +13,6 @@ class PagesCollection:
         self.delay          = delay
         self.javascript     = js
 
-        self.list_raw       = ""
         self.url_list       = []
         self.collected_data = []
 
@@ -21,8 +20,8 @@ class PagesCollection:
 
         try:
             with open (_file, "r") as file:
-                self.list_raw = file.read()
-            for line in self.list_raw.splitlines():
+                list_raw = file.read()
+            for line in list_raw.splitlines():
                 self.url_list.append(line)
         except:
             print("Error leyendo el archivo [{0}]\n".format(_file))
