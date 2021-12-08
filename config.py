@@ -35,7 +35,10 @@ GECKO_LOG_PATH = r"WebDriver/geckodriver.log"
 # ####################################
 # Generales
 
-# Download the source code:
+# Default:
+SEARCH = r""
+
+# Download the source code (same as -s -u)
 #SEARCH = r""".*"""
 
 # Email search
@@ -91,4 +94,10 @@ GECKO_LOG_PATH = r"WebDriver/geckodriver.log"
 #SEARCH = r"""<a class=\"card persona\" href=\"(.*?)\">(.*?)</div>"""
 
 # Departamento
-SEARCH = r"""<p class=\"cargo\">\n?(.+?)<br> *</p>"""
+#SEARCH = r"""<p class=\"cargo\">\n?(.+?)<br> *</p>"""
+
+# ####################################
+# UANDES
+
+SEARCH = r"""<p>[ \n\t]*<strong>Dedicación:</strong>[ \n\t]*</p>[ \n\t]*<ul>[ \n\t]*<li>[ \n\t]*(.*?)[ \n\t]*</li>[ \n\t]*</ul>"""
+
