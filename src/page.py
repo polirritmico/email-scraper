@@ -3,9 +3,10 @@
 
 import re
 import requests
+from config import SEARCH
 
 class Page:
-    def __init__(self, _url, regex):
+    def __init__(self, _url, regex = SEARCH):
         self.url          = _url
         self.html_text    = ""
         self.regex_search = regex
