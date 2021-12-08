@@ -48,8 +48,11 @@ SEARCH = r""
 # Buscar correos sin = ni /
 #SEARCH = r"""(?:[a-z0-9!#$%&'*+?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9]))\.){3}(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9])|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])"""
 
+# UG
+#SEARCH = r"""([Aa]bogad[oa])|(ABOGAD[OA])|(Licenciad[oa])"""
+
 # Master
-#SEARCH = r"""<li>(.*?)(M[aá](g[ií])?ster)(.*?)</li>"""
+#SEARCH = r"""<li(.*?)>(.*?)(M[aá](g[ií])?ster)(.*?)[ \n\t]*?</li>"""
 
 # Doctorado
 #SEARCH = r""">(.*?)((Doctora?)|([Ph]\.?[Hh]\.?[Dd]\.?)) (.*?)</"""
@@ -96,9 +99,20 @@ SEARCH = r""
 # Departamento
 #SEARCH = r"""<p class=\"cargo\">\n?(.+?)<br> *</p>"""
 
+# Doctorados
+SEARCH = r""">(.*?)((Doctora?)|([Ph]\.?[Hh]\.?[Dd]\.?)) (.*?)</"""
+
+# UG
+#SEARCH = r"""<a class=\"card persona\" href=\"(.*?)\">(.*?)</div>"""
+
 # ####################################
 # UANDES
 
 # Cargos. Descomentar pagesCollection.py línea 42 para añadir separador
-SEARCH = r"""(<p class=\"person-title\">[ \n\t]*(.+?)</p>)|(<p>[ \n\t]*<strong>Dedicación:</strong>[ \n\t]*</p>[ \n\t]*<ul>[ \n\t]*<li>[ \n\t]*(.*?)[ \n\t]*</li>)|(<h2>[ \n\t]*Categoría Académica</h2>[ \n\t]*<ul>[ \n\t]*<li>[ \n\t]*(.*?)</li>)"""
+#SEARCH = r"""(<p class=\"person-title\">[ \n\t]*(.+?)</p>)|(<p>[ \n\t]*<strong>Dedicación:</strong>[ \n\t]*</p>[ \n\t]*<ul>[ \n\t]*<li>[ \n\t]*(.*?)[ \n\t]*</li>)|(<h2>[ \n\t]*Categoría Académica</h2>[ \n\t]*<ul>[ \n\t]*<li>[ \n\t]*(.*?)</li>)"""
 
+# Master
+#SEARCH = r"""<li(.*?)>(.*?)(M[aá](g[ií])?ster)(.*?)[ \n\t]*?</li>"""
+
+# UG
+#SEARCH = r"""<li(.*?)>(.*?)([Aa]bogad[oa])|(ABOGAD[OA])|(Licenciad[oa])(.*?)</li>"""
