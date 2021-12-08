@@ -8,6 +8,7 @@ from src.page import Page
 from src.browser import Browser
 from src.usage import *
 
+
 def launchBrowser(page):
     browser = Browser()
     page.readHTML_JS(browser)
