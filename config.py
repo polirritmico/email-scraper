@@ -100,7 +100,7 @@ SEARCH = r""
 #SEARCH = r"""<p class=\"cargo\">\n?(.+?)<br> *</p>"""
 
 # Doctorados
-SEARCH = r""">(.*?)((Doctora?)|([Ph]\.?[Hh]\.?[Dd]\.?)) (.*?)</"""
+#SEARCH = r""">(.*?)((Doctora?)|([Ph]\.?[Hh]\.?[Dd]\.?)) (.*?)</"""
 
 # UG
 #SEARCH = r"""<a class=\"card persona\" href=\"(.*?)\">(.*?)</div>"""
@@ -116,3 +116,9 @@ SEARCH = r""">(.*?)((Doctora?)|([Ph]\.?[Hh]\.?[Dd]\.?)) (.*?)</"""
 
 # UG
 #SEARCH = r"""<li(.*?)>(.*?)([Aa]bogad[oa])|(ABOGAD[OA])|(Licenciad[oa])(.*?)</li>"""
+
+# ####################################
+# PUCV
+
+# Doctorados
+SEARCH = r""">(.*?)((Doctora?)|([Ph]\.?[Hh]\.?[Dd]\.?)) (.*?)</"""
