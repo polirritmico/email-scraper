@@ -99,11 +99,14 @@ SEARCH = r""
 # Departamento
 #SEARCH = r"""<p class=\"cargo\">\n?(.+?)<br> *</p>"""
 
-# Doctorados
+# Doctorados NO FUNCIONA
 #SEARCH = r""">(.*?)((Doctora?)|([Ph]\.?[Hh]\.?[Dd]\.?)) (.*?)</"""
 
 # Pregrados
-#SEARCH = r"""<a class=\"card persona\" href=\"(.*?)\">(.*?)</div>"""
+#SEARCH = r"""<p>(.*?)(([Aa]bogad[oa])|(ABOGAD[OA])|(Licenciad[oa]))(.*?)</"""
+
+# Curriculum
+SEARCH = r"""https://(.+?).pdf"""
 
 # ####################################
 # UANDES
@@ -127,4 +130,4 @@ SEARCH = r""
 #SEARCH = r""">(M[aá](g[ií])?ster)(.*?)[ \n\t]*?</"""
 
 # Pregrados
-SEARCH = r""">(([Aa]bogad[oa])|(ABOGAD[OA])|(Licenciad[oa]))(.+?)<"""
+#SEARCH = r""">(([Aa]bogad[oa])|(ABOGAD[OA])|(Licenciad[oa]))(.+?)<"""
