@@ -35,11 +35,13 @@ class PagesCollection:
     def scrapUrlList(self):
         if self.verbose:
             print(SEP + "RegEx matches:\n" + SEP)
-            counter = 1
 
+        counter = 0
         for url in self.url_list:
+            counter += 1
             # Add a SEP between each case (e.g. multiline matches)
             #self.collected_data.append("===========")
+
             if url == "":
                 self.collected_data.append("")
                 if self.verbose: print("")
@@ -55,7 +57,6 @@ class PagesCollection:
 
             if self.verbose:
                 print(self.collected_data[-1])
-                counter += 1
             # Add a delay to avoid bans
             time.sleep(self.delay)
 
