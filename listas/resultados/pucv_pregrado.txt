@@ -1,0 +1,106 @@
+Abogado	PUCV
+Abogado	PUCV
+Abogado	PUCV
+Licenciado en Filosofía	PUCV	Abogado	PUCV
+Abogado	PUCV
+Abogado	PUCV
+Abogado	UCHILE
+Abogado	PUCV
+Abogado	PUCV
+Abogada	PUCV
+Abogado	UCHILE
+Abogado	PUCV
+Abogado	PUCV
+Abogado	PUCV
+Abogado	UDEC
+Abogado	UCHILE
+Abogada	PUCV
+Abogado	PUCV
+Abogado	PUCV
+Abogado	Universidad Central de Chile
+Abogado	PUCV
+Abogado	PUCV
+Abogado	Universidad Austral de Chile
+Abogado	Universidad de Valparaíso
+Abogado	PUCV
+Abogado	PUCV
+
+Licenciada en Lengua y Literatura hispánica y Profesora de Castellano PUCV
+Abogado	PUCV
+Abogado	PUCV
+Abogada	Universidad Católica del Norte
+Abogado	PUCV
+Abogado	PUCV
+Abogado	PUCV
+Abogado	PUCV
+Abogada, Licenciada en Ciencias Jurídicas	Universidad Diego Portales
+Abogado	PUCV
+
+Abogado	PUCV
+Abogado	PUCV
+Abogado	PUCV
+Abogado	PUCV
+Abogado	PUCV
+Abogado y Licenciado en Ciencias Jurídicas	PUCV
+Licenciado en Ciencias Jurídicas	PUCV
+Abogada PUCV. Diploma de Postítulo Interdisciplinario en Derecho Internacional de los Derechos Humanos	UCHILE
+Licenciado en Ciencias Jurídicas	PUCV
+Abogado	Universidad de Valparaíso
+Licenciada en Lengua y Literatura Hispánica	PUCV
+
+Abogado	PUCV
+Abogado	PUCV
+Licenciado en Historia con mención en Ciencias Políticas	PUCV	Abogado	PUCV
+
+Abogado	Universidad Austral de Chile
+Abogado	PUCV
+Abogada	UCHILE
+Abogada	PUCV
+Licenciado en Lengua y Literatura Hispánica	PUCV
+
+Abogado	PUCV
+Abogada	PUCV
+Abogada	Universidad Federal de Amazonas, Brasil
+
+
+Abogado	PUCV
+Licenciado en Lengua y Literatura Hispánica	PUCV
+Abogada	Universidad de Talca
+Abogada	UAI
+Licenciada en Lengua y Literatura hispánica	PUCV
+Abogado	PUCV
+Abogado	PUCV
+Abogado	PUCV
+Abogado	Universidad de Valparaíso
+Abogado	PUCV
+Abogada	PUCV
+Abogado	UCHILE
+Abogada	PUCV
+Licenciada en Ciencias Sociales	UAI	Licenciada en Ciencias Jurídicas	UAI
+Abogada	PUCV
+
+
+Abogado	Universidad de Aconcagua
+Abogado	PUCV
+Abogado	Universidad Marítima
+Abogado	PUCV
+Abogado	PUCV
+Abogado	PUC
+Licenciada en Derecho	PUCV
+Abogada	PUCV
+Abogado	Universidad de Concepción
+Abogado	PUCV
+Abogado	PUCV
+Abogado	PUCV
+Abogada	PUCV
+Abogada	PUCV
+Licenciada en Historia	PUCV	Abogada	PUCV
+Abogado	PUCV
+Abogado	PUCV
+Abogada	PUCV
+Abogada	PUCV
+Abogada	Universidad de Atacama
+
+
+
+
