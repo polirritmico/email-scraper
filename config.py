@@ -57,6 +57,9 @@ SEARCH = r""
 # Doctorado
 #SEARCH = r""">(.*?)((Doctora?)|([Ph]\.?[Hh]\.?[Dd]\.?)) (.*?)</"""
 
+# Posdoctorado
+SEARCH = r"""<li>(([Pp]ost? ?[Dd]octorado)|([Ph]\.?[Hh]\.?[Dd]\.?)) (.*?)</li>"""
+
 # ####################################
 # UCHILE
 
@@ -105,8 +108,8 @@ SEARCH = r""
 # Pregrados
 #SEARCH = r"""<p>(.*?)(([Aa]bogad[oa])|(ABOGAD[OA])|(Licenciad[oa]))(.*?)</"""
 
-# Curriculum
-SEARCH = r"""https://(.+?).pdf"""
+# Curriculum pdf
+#SEARCH = r"""https://(.+?).pdf"""
 
 # ####################################
 # UANDES
