@@ -35,7 +35,7 @@ class PagesCollection:
     def scrapUrlList(self):
         if self.verbose:
             print(SEP + "RegEx matches:\n" + SEP)
-            counter = 0
+            counter = 1
 
         for url in self.url_list:
             # Add a SEP between each case (e.g. multiline matches)
