@@ -58,7 +58,10 @@ SEARCH = r""
 #SEARCH = r""">(.*?)((Doctora?)|([Ph]\.?[Hh]\.?[Dd]\.?)) (.*?)</"""
 
 # Posdoctorado
-SEARCH = r"""<li>(([Pp]ost? ?[Dd]octorado)|([Ph]\.?[Hh]\.?[Dd]\.?)) (.*?)</li>"""
+#SEARCH = r"""<li>(([Pp]ost? ?[Dd]octorado)|([Ph]\.?[Hh]\.?[Dd]\.?)) (.*?)</li>"""
+
+# Abogado
+SEARCH = r"""([Aa]bogad[oa])|(ABOGAD[OA])"""
 
 # ####################################
 # UCHILE
