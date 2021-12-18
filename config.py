@@ -61,7 +61,7 @@ SEARCH = r""
 #SEARCH = r"""<li>(([Pp]ost? ?[Dd]octorado)|([Ph]\.?[Hh]\.?[Dd]\.?)) (.*?)</li>"""
 
 # Abogado
-SEARCH = r"""([Aa]bogad[oa])|(ABOGAD[OA])"""
+#SEARCH = r"""([Aa]bogad[oa])|(ABOGAD[OA])"""
 
 # ####################################
 # UCHILE
@@ -137,3 +137,9 @@ SEARCH = r"""([Aa]bogad[oa])|(ABOGAD[OA])"""
 
 # Pregrados
 #SEARCH = r""">(([Aa]bogad[oa])|(ABOGAD[OA])|(Licenciad[oa]))(.+?)<"""
+
+# ####################################
+# Otros
+
+# Lista Best Lawyers
+SEARCH = r"""<div class="lawyer-title">(.*?)</"""
