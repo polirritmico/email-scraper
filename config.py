@@ -124,7 +124,7 @@ SEARCH = r""
 #SEARCH = r"""<li(.*?)>(.*?)(M[aá](g[ií])?ster)(.*?)[ \n\t]*?</li>"""
 
 # Pregrados
-#SEARCH = r"""<li(.*?)>(.*?)([Aa]bogad[oa])|(ABOGAD[OA])|(Licenciad[oa])(.*?)</li>"""
+SEARCH = r"""<li(.*?)>(.*?)([Aa]bogad[oa])|(ABOGAD[OA])|(Licenciad[oa])(.*?)</li>"""
 
 # ####################################
 # PUCV
@@ -142,4 +142,4 @@ SEARCH = r""
 # Otros
 
 # Lista Best Lawyers
-SEARCH = r"""<div class="lawyer-title">(.*?)</"""
+#SEARCH = r"""<div class="lawyer-title">(.*?)</"""
