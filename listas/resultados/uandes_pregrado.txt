@@ -1,0 +1,100 @@
+Abogado		PUC
+Ciencias Jurídicas y Sociales		UCHILE
+Ciencias Jurídicas		UANDES
+Abogado		PUC
+Abogado		PUCV
+
+Abogada		Universidad de Valparaíso
+Abogado		PUC
+Derecho		PUC
+Abogado		UANDES
+Abogado		PUC
+Derecho		PUC				Derecho Canónico		Pontificia Universidad de la Santa Cruz, Roma
+Abogado		UCHILE
+Ciencias Jurídicas y Sociales		UCHILE
+Derecho		PUC
+Abogado		PUC
+Abogado		UAI
+Abogada Licenciada		Universidad de Trento, Italia
+Abogado		PUCV
+Derecho		UANDES
+Abogado y Licenciado en Historia		PUC
+
+Licenciado		PUC
+Abogado		PUCV
+Licenciado		PUC
+Ciencias Sociales		PUC				Filosofía		PUC
+Abogada		Universidad del Mar
+Derecho		PUC
+Derecho		PUC
+Abogado		PUC
+Ciencias Jurídicas		PUC
+Derecho		PUC
+Ciencias Jurídicas y Sociales		UCHILE
+Abogado		PUC
+Abogado		PUC
+Abogado		UANDES				Ciencias Sociales y Jurídicas		UANDES
+Derecho		PUC
+Derecho		UANDES
+Abogado		Universidad Nacional Andrés Bello
+Abogado		PUC
+Letras y Literatura		Universidad del Desarrollo
+Abogado		PUC
+Pedagogía y Filosofía		PUC
+Ciencias Jurídicas y Sociales		UANDES
+Derecho		PUC
+Abogado		Pontificia Universidad Católica Argentina Santa María de los Buenos Aires
+Ciencias Jurídicas y Sociales		Universidad Alberto Hurtado
+Humanidades, mención Literatura		UAI
+Literatura y Lengua Hispánica		PUCV
+Abogado		PUC
+Ciencias Jurídicas y Sociales		UANDES
+Derecho		UANDES
+Ciencias Jurídicas y Sociales		UDEC
+Ciencias Jurídicas		UANDES
+Abogado		PUC
+Ciencias Jurídicas y Sociales		PUC
+Abogado		UDP
+Abogado		Universidad del Zulia, Venezuela
+Abogado		UCHILE
+Abogada Licenciada		PUC
+Abogada		Ordem dos Advogados do Brasil
+Derecho		UCHILE
+Derecho		PUC
+Abogado		Universidad de Valparaíso
+Abogado		UCHILE
+Abogado		PUC
+Abogado		UANDES
+Filosofía		UANDES
+Abogado		Universidad Santa María, Venezuela
+
+Abogado		PUC
+Abogada		Universidad de Talca
+Derecho		PUC
+Abogada por la Universidad de Talca
+Comunicación Social		PUC
+Derecho		Universidad Católica de Chile
+Derecho		UCHILE
+Derecho		UANDES
+Abogado		PUCV
+Derecho		PUC
+Derecho		PUC
+Abogado		Universidad de Valparaíso
+Abogado		UAI
+Abogado		UCHILE
+Abogado		PUCV
+Ciencias Jurídicas y Sociales		UCHILE
+Derecho		UCHILE
+Derecho		PUCV
+Abogada		PUC
+Abogado		UCHILE
+Abogada		UANDES
+Abogado		UCHILE
+Derecho		PUC
+Derecho		Universidad Católica de Chile
+Derecho		PUC
+Abogado		PUC
+Abogado		PUCV
+Historia		Universidad de Stanford, EE.UU.
+Abogado		UANDES
+Ciencias Jurídicas		UAI
