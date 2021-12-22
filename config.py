@@ -11,7 +11,7 @@
 # Then adjust the FIREFOX_PATH for your system:
 #
 
-FIREFOX_PATH   = r"/usr/bin/firefox-bin" # Linux
+FIREFOX_PATH   = r"/usr/bin/firefox" # Linux
 #FIREFOX_PATH   = r"C:\\Program Files\\Mozilla Firefox\\" # Win
 GECKO_PATH     = r"WebDriver/geckodriver"
 GECKO_LOG_PATH = r"WebDriver/geckodriver.log"
