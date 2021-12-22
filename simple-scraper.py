@@ -100,7 +100,7 @@ def main(argv):
         # Setting up the options
         if opt in ("-v", "--verbose"):
             verbose = True
-        elif opt in ("-j", "--gecko"):
+        elif opt in ("-g", "--gecko"):
             gecko = True
         elif opt in ("-d", "--delay"):
             delay = float(arg)
