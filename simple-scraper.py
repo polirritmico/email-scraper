@@ -14,14 +14,14 @@ def launchBrowser(page):
     page.readHTML_JS(browser)
     browser.quit()
 
-def scrapUrl(url, verbose, javascript, full_html):
+def scrapUrl(url, verbose, gecko, full_html):
     if verbose: print(SEP + "RegEx matches:\n" + SEP)
 
     if full_html:
         page = Page(url, r".*")
     else:
         page = Page(url)
-    if javascript:
+    if gecko:
         launchBrowser(page)
     else:
         page.readFile()
@@ -33,9 +33,9 @@ def scrapUrl(url, verbose, javascript, full_html):
 
     return page.getMatchData()
 
-def scrapFile(input_file, verbose, javascript):
+def scrapFile(input_file, verbose, gecko):
     page = Page(input_file)
-    if javascript:
+    if gecko:
         launchBrowser(page)
     else:
         page.readFile()
@@ -44,8 +44,8 @@ def scrapFile(input_file, verbose, javascript):
 
     return page.getMatchData()
 
-def scrapListUrl(input_file, verbose, javascript, delay):
-    collection = PagesCollection(input_file, verbose, javascript, delay)
+def scrapListUrl(input_file, verbose, gecko, delay):
+    collection = PagesCollection(input_file, verbose, gecko, delay)
     collection.scrapUrlList()
 
     return collection.getDataList()
@@ -58,9 +58,9 @@ def writeOutFile(out_data, outfile):
 def main(argv):
     # Check input parameters
     try:
-        opts, args = getopt.getopt( sys.argv[1:]   , "hvjsd:luf"   \
+        opts, args = getopt.getopt( sys.argv[1:]   , "hvgsd:luf"   \
                                   , [ "help"       , "verbose"     \
-                                    , "javascript" , "source"      \
+                                    , "gecko"      , "source"      \
                                     , "delay="     , "list"        \
                                     , "url"        , "file" ])
     except getopt.GetoptError:
@@ -76,7 +76,7 @@ def main(argv):
 
     verbose     = False
     delay       = 0.125
-    javascript  = False
+    gecko  = False
     full_html   = False
     out_file    = "out.txt"
     in_file     = ""
@@ -100,8 +100,8 @@ def main(argv):
         # Setting up the options
         if opt in ("-v", "--verbose"):
             verbose = True
-        elif opt in ("-j", "--javascript"):
-            javascript = True
+        elif opt in ("-j", "--gecko"):
+            gecko = True
         elif opt in ("-d", "--delay"):
             delay = float(arg)
         elif opt in ("-s", "--source"):
@@ -109,13 +109,13 @@ def main(argv):
 
         # Run the proper mode
         elif opt in ("-l", "--list"):
-            out_data = scrapListUrl(in_file, verbose, javascript, delay)
+            out_data = scrapListUrl(in_file, verbose, gecko, delay)
             break
         elif opt in ("-u", "--url"):
-            out_data = scrapUrl(in_file, verbose, javascript, full_html)
+            out_data = scrapUrl(in_file, verbose, gecko, full_html)
             break
         elif opt in ("-f", "--file"):
-            out_data = scrapFile(in_file, verbose, javascript)
+            out_data = scrapFile(in_file, verbose, gecko)
             break
 
         else:

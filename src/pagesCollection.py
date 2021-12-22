@@ -10,16 +10,16 @@ from config import SEARCH
 
 class PagesCollection:
     def __init__( self      , input_file   , verb  = False
-                , js = False, delay = 0.125, regex = SEARCH):
+                , gk = False, delay = 0.125, regex = SEARCH):
         self.verbose        = verb
         self.delay          = delay
-        self.javascript     = js
+        self.gecko          = gk
         self.regex_search   = regex
 
         self.url_list       = []
         self.collected_data = []
 
-        self.browser = Browser() if self.javascript else None
+        self.browser = Browser() if self.gecko else None
 
         try:
             with open (input_file, "r") as file:
@@ -28,7 +28,7 @@ class PagesCollection:
                 self.url_list.append(line)
         except:
             print("Error leyendo el archivo [{0}]\n".format(input_file))
-            if self.javascript:
+            if self.gecko:
                 self.browser.quit()
             return -1
 
@@ -48,7 +48,7 @@ class PagesCollection:
                 continue
             page = Page(url, self.regex_search)
 
-            if self.javascript:
+            if self.gecko:
                 page.readHTML_JS(self.browser)
             else:
                 page.readHTML()
@@ -65,7 +65,7 @@ class PagesCollection:
             print("Procesadas {0} páginas".format(counter))
 
         # Browser MUST BE CLOSED or will remain running on background!!
-        if self.javascript: self.browser.quit()
+        if self.gecko: self.browser.quit()
 
     def getDataList(self):
         out_string = ""

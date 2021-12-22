@@ -15,9 +15,9 @@ Opciones:
   -h, --help        Muestra este texto y cierra el programa.
   -v, --verbose     Para activar la salida en consola.
   -d, --delay[=SEG] Para añadir un tiempo en segundos de espera entre
-                    cada url. No funciona en el modo JavaScript.
-  -j, --javascript  Obtiene el HTML a través de un "navegador virtual".
-                    Se debe configurar en <config.py>.
+                    cada url. No funciona en el modo gecko.
+  -g, --gecko       Obtiene el HTML a través de un "navegador virtual".
+                    Para funcionar se debe configurar en <config.py>.
   -s, --source      Descarga el código de la página. Funciona solo para
                     el modo --url.
 
@@ -27,7 +27,7 @@ Modo:
   -f, --file        Para procesar un HTML descargado.
 
 Ejemplo de uso:
-./simple-scraper.py -vj -d 2 --url http://www.pagina.com salida.txt
+./simple-scraper.py -vg -d 2 --url http://www.pagina.com salida.txt
 
 Archivo de entrada:
 Un archivo txt con una url por línea. El programa respeta las líneas 
@@ -42,7 +42,7 @@ es [out.txt].
 
 Archivo de Configuración:
 Dentro de <config.py> se puede configurar para que funcione el modo
-javascript y los parámetros de búsqueda (RegEx). Dentro del archivo hay
+gecko y los parámetros de búsqueda (RegEx). Dentro del archivo hay
 más información.
 
 Más información en https://github.com/polirritmico/simple-scraper
