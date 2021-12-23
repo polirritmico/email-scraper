@@ -76,7 +76,7 @@ def main(argv):
 
     verbose     = False
     delay       = 0.125
-    gecko  = False
+    gecko       = False
     full_html   = False
     out_file    = "out.txt"
     in_file     = ""
