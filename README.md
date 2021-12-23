@@ -15,7 +15,7 @@ Busca y descarga las páginas especificadas en el ARCHIVO/URL y devuelve los res
 |-------------------------|-----------------------------------------|
 | **-h**, *--help*        | Muestra este texto y cierra el programa.|
 | **-v**, *--verbose*     | Para activar la salida en consola.      |
-| **-d**, *--delay[=SEG]* | Para añadir un *tiempo en segundos* de espera entre cada url. No funciona en el modo gecko.|
+| **-d**, *--delay[=SEG]* | Para añadir un *tiempo en segundos* de espera entre cada url.<br/>No funciona en el modo gecko.|
 | **-g**, *--gecko*       | Obtiene el HTML a través de un "navegador virtual". Para funcionar se debe configurar en **config.py**.|
 | **-s**, *--source*      | Descarga el código fuente de la página. Funciona solo para el modo --url.|
 
