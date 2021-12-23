@@ -5,28 +5,33 @@ Un scraper sencillo que permite hacer búsquedas RegEx en el código html de pá
 
 ## Modo de empleo:
 ```
-simple-scraper.py [OPCIÓN] [MODO] [ARCHIVO/URL] [SALIDA]
+simple-scraper.py [OPCIONES] [MODO] [ARCHIVO/URL] [SALIDA]
 ```
 
 Busca y descarga las páginas especificadas en el ARCHIVO/URL y devuelve los resultados dentro del archivo de texto SALIDA.
 
 ## Opciones:
-- **-h**, *--help*        Muestra este texto y cierra el programa.
-- **-v**, *--verbose*     Para activar la salida en consola.
-- **-d**, *--delay[=SEG]* Para añadir un tiempo en segundos de espera entre cada url. No funciona en el modo gecko.
-- **-g**, *--gecko*       Obtiene el HTML a través de un "navegador virtual".
-                          Para funcionar se debe configurar en **config.py**.
-- **-s**, *--source*      Descarga el código fuente de la página. Funciona solo para el modo --url.
+| Argumento               | Descripción                             |
+|-------------------------|-----------------------------------------|
+| **-h**, *--help*        | Muestra este texto y cierra el programa.|
+| **-v**, *--verbose*     | Para activar la salida en consola.      |
+| **-d**, *--delay[=SEG]* | Para añadir un *tiempo en segundos* de espera entre cada url. No funciona en el modo gecko.|
+| **-g**, *--gecko*       | Obtiene el HTML a través de un "navegador virtual". Para funcionar se debe configurar en **config.py**.|
+| **-s**, *--source*      | Descarga el código fuente de la página. Funciona solo para el modo --url.|
 
 ## Modo:
-- **-l**, *--list*        Para procesar un archivo de lista.
-- **-u**, *--url*         Para procesar una lista.
-- **-f**, *--file*        Para procesar un HTML descargado.
+| Argumento               | Descripción                             |
+|-------------------------|-----------------------------------------|
+| **-l**, *--list*        | Para procesar un archivo de lista.      |
+| **-u**, *--url*         | Para procesar una lista.                |
+| **-f**, *--file*        | Para procesar un HTML descargado.       |
 
 ## Ejemplo de uso:
 ```
 ./simple-scraper.py -vg -d 2 --url http://www.url.com salida.txt
 ```
+
+El parámetro de búsqueda se define dentro de [config.py] en la variable **SEARCH**. Para más información sobre las búsquedas RegEx seguir el siguiente enlace: https://docs.python.org/3/library/re.html#regular-expression-syntax
 
 ----------------------------------------
 

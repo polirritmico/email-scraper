@@ -36,7 +36,7 @@ GECKO_LOG_PATH = r"WebDriver/geckodriver.log"
 # Generales
 
 # Default:
-SEARCH = r""
+SEARCH = r"" # This will be overwritten by a uncommented search below
 
 # Download the source code (same as -s -u)
 #SEARCH = r""".*"""
