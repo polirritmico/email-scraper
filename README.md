@@ -1,5 +1,5 @@
 # simple-scraper
-A simple web scraper.
+Un web scraper sencillo que permite hacer búsquedas RegEx en el código html de páginas web. Las búsquedas pueden ser a páginas individuales o una lista de dentro de un archivo de texto plano.
 
 ----------------------------------------
 
