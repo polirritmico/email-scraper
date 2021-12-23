@@ -12,7 +12,7 @@ from src.browser import Browser
 REGEX_MAIL   = r"""(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9]))\.){3}(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9])|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])"""
 REGEX_MASTER = r"""<li>(.*?)(M[aá](g[ií])?ster)(.*?)</li>"""
 
-@unittest.skip
+#@unittest.skip
 class TestBase(unittest.TestCase):
     def test_get_web_file(self):
         url = "http://derecho.uc.cl/es/profesores/nomina-por-departamento/departamento-de-derecho-privado/581-lyon-puelma-alberto"
@@ -118,7 +118,7 @@ class TestBase(unittest.TestCase):
 
         self.assertEqual(expected, out)
 
-#@unittest.skip
+@unittest.skip
 class TestNewFunction(unittest.TestCase):
     def test_new_function(self):
         pass
