@@ -24,11 +24,11 @@ GECKO_LOG_PATH = r"WebDriver/geckodriver.log"
 #
 # Adjust the SEARCH value to search what you want or uncomment one of
 # the current ones.
-# Must be inside a raw string: r""""""
+# Must be inside a raw string: r"""SEARCH_VALUE"""
 #
 # More info about Regex:
 #   https://docs.python.org/3/library/re.html#regular-expression-syntax
-# To do some tests:
+# To do some tests (select Python):
 #   https://regex101.com/
 # 
 
@@ -36,7 +36,7 @@ GECKO_LOG_PATH = r"WebDriver/geckodriver.log"
 # Generales
 
 # Default:
-SEARCH = r"" # This will be overwritten by a uncommented search below
+SEARCH = r"""""" # This will be overwritten by a uncommented search below
 
 # Download the source code (same as -s -u)
 #SEARCH = r""".*"""
@@ -46,7 +46,10 @@ SEARCH = r"" # This will be overwritten by a uncommented search below
 #SEARCH = r"""(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9]))\.){3}(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9])|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])"""
 
 # Buscar correos sin = ni /
-#SEARCH = r"""(?:[a-z0-9!#$%&'*+?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9]))\.){3}(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9])|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])"""
+SEARCH = r"""(?:[a-z0-9!#$%&'*+?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9]))\.){3}(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9])|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])"""
+
+# PDF
+#SEARCH = r"""https://(.+?).pdf"""
 
 # Pregrados
 #SEARCH = r"""([Aa]bogad[oa])|(ABOGAD[OA])|(Licenciad[oa])"""
@@ -111,9 +114,6 @@ SEARCH = r"" # This will be overwritten by a uncommented search below
 # Pregrados
 #SEARCH = r"""<p>(.*?)(([Aa]bogad[oa])|(ABOGAD[OA])|(Licenciad[oa]))(.*?)</"""
 
-# Curriculum pdf
-#SEARCH = r"""https://(.+?).pdf"""
-
 # ####################################
 # UANDES
 
@@ -124,7 +124,7 @@ SEARCH = r"" # This will be overwritten by a uncommented search below
 #SEARCH = r"""<li(.*?)>(.*?)(M[aá](g[ií])?ster)(.*?)[ \n\t]*?</li>"""
 
 # Pregrados
-SEARCH = r"""<li([^<]*?)>([^<]*?)(([Aa]bogad[oa])|(ABOGAD[OA])|(Licenciad[oa]))(.+?)</li>"""
+#SEARCH = r"""<li([^<]*?)>([^<]*?)(([Aa]bogad[oa])|(ABOGAD[OA])|(Licenciad[oa]))(.+?)</li>"""
 
 # ####################################
 # PUCV
