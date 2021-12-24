@@ -11,7 +11,7 @@ from src.usage import *
 
 def launchBrowser(page):
     browser = Browser()
-    page.readHTML_JS(browser)
+    page.readHTML_Gecko(browser)
     browser.quit()
 
 def scrapUrl(url, verbose, gecko, full_html):

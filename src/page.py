@@ -18,7 +18,7 @@ class Page:
         # Get the HTML code
         self.html_text = raw_page.text
 
-    def readHTML_JS(self, browser):
+    def readHTML_Gecko(self, browser):
         # Get the HTML from the internet
         self.html_text = browser.loadWeb(self.url)
 

@@ -49,7 +49,7 @@ class PagesCollection:
             page = Page(url, self.regex_search)
 
             if self.gecko:
-                page.readHTML_JS(self.browser)
+                page.readHTML_Gecko(self.browser)
             else:
                 page.readHTML()
             page.processHTML()

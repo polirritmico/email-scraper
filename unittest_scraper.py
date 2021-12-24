@@ -61,7 +61,7 @@ class TestBase(unittest.TestCase):
 
         browser = Browser()
         page = Page(url, REGEX_MAIL)
-        page.readHTML_JS(browser)
+        page.readHTML_Gecko(browser)
         page.processHTML()
         out = page.getMatchData()
         browser.quit()
