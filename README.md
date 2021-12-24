@@ -10,6 +10,9 @@ simple-scraper.py [OPCIONES] [MODO] [ARCHIVO/URL] [SALIDA]
 
 Busca y descarga las páginas especificadas en el ARCHIVO/URL y devuelve los resultados dentro del archivo de texto SALIDA.
 
+El parámetro de búsqueda se define dentro de [config.py] en la variable **SEARCH**. Para más información sobre las búsquedas RegEx seguir el siguiente enlace: https://docs.python.org/3/library/re.html#regular-expression-syntax
+
+
 ## Opciones:
 | Argumento               | Descripción                             |
 |-------------------------|-----------------------------------------|
@@ -30,8 +33,6 @@ Busca y descarga las páginas especificadas en el ARCHIVO/URL y devuelve los res
 ```
 ./simple-scraper.py -vg -d 2 --url http://www.url.com salida.txt
 ```
-
-El parámetro de búsqueda se define dentro de [config.py] en la variable **SEARCH**. Para más información sobre las búsquedas RegEx seguir el siguiente enlace: https://docs.python.org/3/library/re.html#regular-expression-syntax
 
 ----------------------------------------
 
