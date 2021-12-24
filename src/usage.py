@@ -12,6 +12,10 @@ def usage():
 Busca y descarga las páginas especificadas en el ARCHIVO/URL y devuelve
 los resultados dentro del archivo de texto SALIDA.
 
+El parámetro de búsqueda se define dentro de <config.py>. Para más
+información sobre las búsquedas RegEx seguir el siguiente enlace:
+https://docs.python.org/3/library/re.html#regular-expression-syntax
+
 Opciones:
   -h, --help        Muestra este texto y cierra el programa.
   -v, --verbose     Para activar la salida en consola.
@@ -29,10 +33,6 @@ Modo:
 
 Ejemplo de uso:
 ./simple-scraper.py -vg -d 2 --url http://www.pagina.com salida.txt
-
-El parámetro de búsqueda se define dentro de <config.py>. Para más
-información sobre las búsquedas RegEx seguir el siguiente enlace:
-https://docs.python.org/3/library/re.html#regular-expression-syntax
 
 Archivo de entrada:
 Un archivo txt con una url por línea. El programa respeta las líneas 
