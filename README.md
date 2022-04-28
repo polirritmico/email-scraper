@@ -1,6 +1,8 @@
 # simple-scraper
 Un scraper sencillo que permite hacer búsquedas RegEx en el código html de páginas web. Las búsquedas pueden ser a páginas individuales o una lista dentro de un archivo de texto plano.
 
+En lugar de pasar RegEx, se puede implementar una solución más robusta mediante el uso de Beautiful Soup u otro tipo de herramientas de reconocimiento semántico o parsers.
+
 ----------------------------------------
 
 ## Modo de empleo:
